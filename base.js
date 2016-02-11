@@ -9,7 +9,8 @@ var gItems;
 btn.addEventListener('click', function() {
 	var str = txt.value;
 	if (str.length <= 2) {
-		txt.style.borderColor = '#F00';
+		txt.style.borderTop = '0.8em solid #F00';
+		txt.setAttribute('placeHolder', 'Type something first :D');
 		return false;
 	} else {
 		store(str);

@@ -2,17 +2,20 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<title>Todo List | What are you planning to do next?</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Todo List | What's next?</title>
 	<link href="base.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<header>
 	<input type="text" placeholder="Go shopping..." id="txt" />
-	<input type="submit" id="btn" value="Go!" />
+	<input type="submit" id="btn" value="Add" />
 	<input type="button" id="clr" value="Clear" />
-	<p>
-		<ul id="todo">
-		</ul>
-	</p>
+</header>
+<section>
+	<ul id="todo">
+	</ul>
+</section>
 <script src="jquery-2.2.0.min.js"></script>
 <script src="base.js"></script> 
 </body>

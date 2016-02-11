@@ -1,6 +1,82 @@
-#todo li {
+@charset "utf-8";
+
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	position: relative;
+	width: 43.75em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	top: 4em;
+}
+header input#txt, header input#btn, header input#clr {
+	position: relative;
+	display: block;
+}
+header input#txt {
+	width: 38em;
+	color: #999;
+	text-shadow: 0em 0.06em #333;
+	font-style: italic;
+	padding: 1.5em 1.5em;
+	font-size: 0.9em;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: transparent;
+	border-top-width: 0.8em;
+	border-top-color: #999;
+}
+header input#btn, header input#clr, header input#btn:visited, header input#clr:visited {
+	display: inline;
+	padding: 1em 2em;
+	top: 1em;
+	border: 0;
+	color: #333;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #FF6666;
+	text-shadow: 0.05em 0.05em #999;
+	border-radius: 1em;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	-khtml-border-radius: 1em;
+}
+header input#btn:hover, header input#clr:hover {
+	color: #FF6666;
+	background-color: #333;
+	transition: color 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s;
+}
+header input#btn:focus, header input#clr:focus {
+	color: #999;
+	transition: color 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s;
+}
+header input#btn {
+	margin-right: 0.7em;
+}
+section {
+	position: relative;
+	width: 43.75em;
+	margin-left: auto;
+	margin-right: auto;
+	top: 12em;
+}
+section ul#todo li {
+	margin-top: 0.5em;
+	padding: 1.5em;
+	font-size: 1.3em;
+	color: #FF6666;
+	background-color: #333;
+	font-weight: bold;
+	font-style: italic;
 	list-style-type: upper-roman;
 }
-#todo li:first-letter {
+section ul#todo li:first-letter {
 	text-transform: capitalize;
 }

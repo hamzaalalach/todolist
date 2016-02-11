@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"mart",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
 				"text",
 				"text-transform"
 			],
@@ -52,16 +92,8 @@
 				"transparent"
 			],
 			[
-				"backgr",
-				"background-image"
-			],
-			[
 				"fo",
 				"font-size"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"inpu",
@@ -80,36 +112,16 @@
 				"document"
 			],
 			[
-				"ma",
-				"margin-left"
-			],
-			[
-				"pa",
-				"padding-left"
-			],
-			[
 				"inli",
 				"inline"
-			],
-			[
-				"marg",
-				"margin-left"
 			],
 			[
 				"margin-",
 				"margin-right"
 			],
 			[
-				"bor",
-				"border-radius"
-			],
-			[
 				"font-s",
 				"font-size"
-			],
-			[
-				"margi",
-				"margin-right"
 			],
 			[
 				"pis",
@@ -188,10 +200,6 @@
 				"inline-block"
 			],
 			[
-				"in",
-				"input"
-			],
-			[
 				"l",
 				"lastLeft"
 			],
@@ -255,15 +263,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 475,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "base.js",
-			"settings":
-			{
-				"buffer_size": 2053,
+				"buffer_size": 481,
 				"line_ending": "Unix"
 			}
 		},
@@ -271,7 +271,15 @@
 			"file": "base.css",
 			"settings":
 			{
-				"buffer_size": 98,
+				"buffer_size": 1732,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "base.js",
+			"settings":
+			{
+				"buffer_size": 2125,
 				"line_ending": "Unix"
 			}
 		}
@@ -328,6 +336,8 @@
 	],
 	"file_history":
 	[
+		"/home/hamzaalalach/Sites/html5up-highlights/README.txt",
+		"/home/hamzaalalach/Sites/html5up-highlights/LICENSE.txt",
 		"/opt/lampp/htdocs/todo/JavaScript.js",
 		"/opt/lampp/htdocs/todo/base.css",
 		"/home/hamzaalalach/Downloads/Sublime Text 3 License Key (Build 3065)",
@@ -427,6 +437,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"section",
+			"todoList",
+			";\n",
 			"store",
 			"gItems",
 			"return",
@@ -494,7 +507,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -503,15 +516,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 475,
+						"buffer_size": 481,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								108,
-								108
+								286,
+								286
 							]
 						],
 						"settings":
@@ -524,24 +537,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "base.js",
-					"semi_transient": true,
+					"file": "base.css",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2053,
+						"buffer_size": 1732,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1665,
+								1665
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "base.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
 							]
 						],
 						"settings":
@@ -550,38 +592,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": -0.0,
-						"translation.y": 0.0,
+						"translation.y": 420.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "base.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 98,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								98,
-								98
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -644,6 +658,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/opt/lampp/htdocs/hamzaalalach/hamzaalalach.sublime-workspace"
+			]
 		],
 		"width": 380.0
 	},
