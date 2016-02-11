@@ -1,0 +1,6 @@
+#todo li {
+	list-style-type: upper-roman;
+}
+#todo li:first-letter {
+	text-transform: capitalize;
+}
