@@ -24,8 +24,9 @@ header input#txt {
 	color: #999;
 	text-shadow: 0em 0.06em #333;
 	font-style: italic;
-	padding: 1.5em 1.5em;
+	padding: 1em 1.5em;
 	font-size: 0.9em;
+	line-height: 3em;
 	margin-left: auto;
 	margin-right: auto;
 	border-color: transparent;
@@ -55,6 +56,7 @@ header input#btn:hover, header input#clr:hover {
 }
 header input#btn:focus, header input#clr:focus {
 	color: #999;
+	
 	transition: color 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s;
 }
 header input#btn {
@@ -76,6 +78,7 @@ section ul#todo li {
 	font-weight: bold;
 	font-style: italic;
 	list-style-type: upper-roman;
+	text-align: justify;
 }
 section ul#todo li:first-letter {
 	text-transform: capitalize;

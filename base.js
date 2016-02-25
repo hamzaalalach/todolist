@@ -1,8 +1,8 @@
-var txt = document.getElementById('txt');
-var btn = document.getElementById('btn');
-var todo = document.getElementById('todo');
-var clr = document.getElementById('clr');
-var gItems;
+var txt = document.getElementById('txt'),
+	btn = document.getElementById('btn'),
+	todo = document.getElementById('todo'),
+	clr = document.getElementById('clr'),
+	gItems;
 
 
 /*  Events Handler  */

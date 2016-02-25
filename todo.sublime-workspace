@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align"
+			],
+			[
 				"ma",
 				"margin"
 			],
@@ -42,10 +46,6 @@
 			[
 				"margi",
 				"margin"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"g",
@@ -263,7 +263,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 481,
+				"buffer_size": 573,
 				"line_ending": "Unix"
 			}
 		},
@@ -271,7 +271,7 @@
 			"file": "base.css",
 			"settings":
 			{
-				"buffer_size": 1732,
+				"buffer_size": 1773,
 				"line_ending": "Unix"
 			}
 		},
@@ -279,7 +279,7 @@
 			"file": "base.js",
 			"settings":
 			{
-				"buffer_size": 2125,
+				"buffer_size": 2113,
 				"line_ending": "Unix"
 			}
 		}
@@ -336,6 +336,8 @@
 	],
 	"file_history":
 	[
+		"/home/hamzaalalach/Downloads/z/lollypop/INSTALL",
+		"/home/hamzaalalach/Steam/logs/bootstrap_log.txt",
 		"/home/hamzaalalach/Sites/html5up-highlights/README.txt",
 		"/home/hamzaalalach/Sites/html5up-highlights/LICENSE.txt",
 		"/opt/lampp/htdocs/todo/JavaScript.js",
@@ -359,7 +361,6 @@
 		"/home/hamzaalalach/GridLoadingEffects/GridLoadingEffects/index.html",
 		"/opt/lampp/htdocs/hamzaalalach/_css/fakeLoader.css",
 		"/home/hamzaalalach/github/hamzaalalach.github.io/index.html",
-		"/home/hamzaalalach/Steam/logs/bootstrap_log.txt",
 		"/home/hamzaalalach/Downloads/Backup-codes-hamzaalalach.txt",
 		"/etc/rc.local",
 		"/opt/lampp/htdocs/hamzaalalach/t.php",
@@ -516,15 +517,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 481,
+						"buffer_size": 573,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								286,
-								286
+								330,
+								330
 							]
 						],
 						"settings":
@@ -537,7 +538,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -546,15 +547,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1732,
+						"buffer_size": 1773,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1665,
-								1665
+								1706,
+								1706
 							]
 						],
 						"settings":
@@ -563,7 +564,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 168.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -575,15 +576,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2125,
+						"buffer_size": 2113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								401,
-								401
+								80,
+								80
 							]
 						],
 						"settings":
@@ -591,11 +592,11 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 420.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
