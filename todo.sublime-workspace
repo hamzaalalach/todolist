@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"f",
+				"false"
+			],
+			[
+				"gI",
+				"gItemsL"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"e",
+				"eId"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"get",
+				"get	Get Elements"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"li2",
+				"li2Txt"
+			],
+			[
+				"li",
+				"li1"
+			],
+			[
+				"a2",
+				"a2Txt"
+			],
+			[
+				"a1",
+				"a1Txt"
+			],
+			[
+				"div",
+				"divE"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -104,10 +168,6 @@
 				"querySelectorAll"
 			],
 			[
-				"get",
-				"get	Get Elements"
-			],
-			[
 				"docme",
 				"document"
 			],
@@ -132,10 +192,6 @@
 				"innerWidth"
 			],
 			[
-				"le",
-				"left"
-			],
-			[
 				"rt",
 				"rtFalse"
 			],
@@ -146,14 +202,6 @@
 			[
 				"fun",
 				"function"
-			],
-			[
-				"f",
-				"float"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"border-",
@@ -190,10 +238,6 @@
 			[
 				"font-",
 				"font-size"
-			],
-			[
-				"paddi",
-				"padding"
 			],
 			[
 				"inline",
@@ -271,7 +315,7 @@
 			"file": "base.css",
 			"settings":
 			{
-				"buffer_size": 1773,
+				"buffer_size": 2408,
 				"line_ending": "Unix"
 			}
 		},
@@ -279,7 +323,7 @@
 			"file": "base.js",
 			"settings":
 			{
-				"buffer_size": 2113,
+				"buffer_size": 3641,
 				"line_ending": "Unix"
 			}
 		}
@@ -336,6 +380,7 @@
 	],
 	"file_history":
 	[
+		"/home/hamzaalalach/.steam/public/steamui_french.txt",
 		"/home/hamzaalalach/Downloads/z/lollypop/INSTALL",
 		"/home/hamzaalalach/Steam/logs/bootstrap_log.txt",
 		"/home/hamzaalalach/Sites/html5up-highlights/README.txt",
@@ -424,7 +469,7 @@
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -438,6 +483,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"()\n",
 			"section",
 			"todoList",
 			";\n",
@@ -508,7 +554,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -524,8 +570,8 @@
 						"selection":
 						[
 							[
-								330,
-								330
+								480,
+								480
 							]
 						],
 						"settings":
@@ -538,7 +584,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -547,15 +593,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1773,
+						"buffer_size": 2408,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1706,
-								1706
+								263,
+								263
 							]
 						],
 						"settings":
@@ -563,11 +609,11 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 897.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -576,27 +622,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2113,
+						"buffer_size": 3641,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								80,
-								80
+								3345,
+								3345
 							]
 						],
 						"settings":
 						{
+							"spell_check": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 897.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

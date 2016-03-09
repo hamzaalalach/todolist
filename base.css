@@ -14,6 +14,7 @@ header {
 	margin-right: auto;
 	text-align: center;
 	top: 4em;
+	left: 0.8em;
 }
 header input#txt, header input#btn, header input#clr {
 	position: relative;
@@ -32,6 +33,7 @@ header input#txt {
 	border-color: transparent;
 	border-top-width: 0.8em;
 	border-top-color: #999;
+	background-color: rgba(0, 0, 0, 0.03);
 }
 header input#btn, header input#clr, header input#btn:visited, header input#clr:visited {
 	display: inline;
@@ -79,7 +81,39 @@ section ul#todo li {
 	font-style: italic;
 	list-style-type: upper-roman;
 	text-align: justify;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 section ul#todo li:first-letter {
 	text-transform: capitalize;
+}
+.menu {
+	position: absolute;
+	width: 7em;
+	height: 5em;
+	background-color: #FF6666;
+	box-shadow: 0em 0em 2em #000;
+}
+.menu ul {
+	position: relative;
+	font-size: 0.85em;
+	font-family: Impact, Charcoal, sans-serif;
+	top: -0.2em;
+	text-align: center;
+}
+.menu ul li {
+	color: #222;
+	cursor: pointer;
+	position: relative;
+	list-style-type: none;
+	display: block;
+	left: -2.95em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	width: 8.25em;
+}
+.menu ul li:hover {
+	background-color: #999;
 }
