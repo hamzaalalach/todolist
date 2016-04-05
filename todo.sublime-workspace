@@ -323,7 +323,7 @@
 			"file": "base.js",
 			"settings":
 			{
-				"buffer_size": 3641,
+				"buffer_size": 3642,
 				"line_ending": "Unix"
 			}
 		}
@@ -380,6 +380,7 @@
 	],
 	"file_history":
 	[
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C011%5D/Internal Storage/x",
 		"/home/hamzaalalach/.steam/public/steamui_french.txt",
 		"/home/hamzaalalach/Downloads/z/lollypop/INSTALL",
 		"/home/hamzaalalach/Steam/logs/bootstrap_log.txt",
@@ -570,8 +571,8 @@
 						"selection":
 						[
 							[
-								480,
-								480
+								469,
+								469
 							]
 						],
 						"settings":
@@ -600,8 +601,8 @@
 						"selection":
 						[
 							[
-								263,
-								263
+								17,
+								17
 							]
 						],
 						"settings":
@@ -609,8 +610,8 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 897.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -622,15 +623,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3641,
+						"buffer_size": 3642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3345,
-								3345
+								260,
+								258
 							]
 						],
 						"settings":
@@ -640,7 +641,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 897.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,

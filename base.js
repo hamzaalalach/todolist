@@ -121,7 +121,7 @@ function store(str) {
 				}, false)
 			}
 			function hideMenu() {
-				var div = document.querySelector('.menu')
+				var div = document.querySelector('.menu');
 				div.parentNode.removeChild(div);
 				divE = false;
 			}
