@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bo",
+				"bodyParser"
+			],
+			[
 				"f",
 				"false"
 			],
@@ -304,26 +308,26 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "bin/www",
 			"settings":
 			{
-				"buffer_size": 573,
+				"buffer_size": 110,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "base.css",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 2408,
+				"buffer_size": 624,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "base.js",
+			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 3642,
+				"buffer_size": 620,
 				"line_ending": "Unix"
 			}
 		}
@@ -335,10 +339,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 375.0,
+		"last_filter": "j",
 		"selected_items":
 		[
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"aja",
 				"Set Syntax: JavaScript"
@@ -356,7 +364,7 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 392.0
+		"width": 471.0
 	},
 	"console":
 	{
@@ -376,10 +384,16 @@
 	},
 	"expanded_folders":
 	[
-		"/opt/lampp/htdocs/todo"
+		"/home/hamzaalalach/Desktop/dotolist"
 	],
 	"file_history":
 	[
+		"/home/hamzaalalach/Desktop/tp/index.js",
+		"/home/hamzaalalach/Desktop/dotolist/.gitignore",
+		"/home/hamzaalalach/Desktop/dotolist/index.js",
+		"/home/hamzaalalach/Desktop/dotolist/base.js",
+		"/home/hamzaalalach/Desktop/dotolist/base.css",
+		"/home/hamzaalalach/Desktop/dotolist/index.html",
 		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C011%5D/Internal Storage/x",
 		"/home/hamzaalalach/.steam/public/steamui_french.txt",
 		"/home/hamzaalalach/Downloads/z/lollypop/INSTALL",
@@ -555,60 +569,59 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "bin/www",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 573,
+						"buffer_size": 110,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								469,
-								469
+								4,
+								4
 							]
 						],
 						"settings":
 						{
-							"spell_check": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "base.css",
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2408,
+						"buffer_size": 624,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								17
+								132,
+								132
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Theme - Piatto/icons/Langs/npm JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -619,32 +632,30 @@
 				},
 				{
 					"buffer": 2,
-					"file": "base.js",
+					"file": "index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3642,
+						"buffer_size": 620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								258
+								433,
+								433
 							]
 						],
 						"settings":
 						{
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
