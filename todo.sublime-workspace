@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"co",
+				"console"
+			],
+			[
 				"bo",
 				"bodyParser"
 			],
@@ -308,22 +312,6 @@
 	"buffers":
 	[
 		{
-			"file": "bin/www",
-			"settings":
-			{
-				"buffer_size": 110,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 624,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index.js",
 			"settings":
 			{
@@ -384,10 +372,15 @@
 	},
 	"expanded_folders":
 	[
-		"/home/hamzaalalach/Desktop/dotolist"
+		"/home/hamzaalalach/Desktop/dotolist",
+		"/home/hamzaalalach/Desktop/dotolist/bin"
 	],
 	"file_history":
 	[
+		"/home/hamzaalalach/Desktop/dotolist/bin/task.js",
+		"/home/hamzaalalach/Desktop/dotolist/bin/populateDB.js",
+		"/home/hamzaalalach/Desktop/dotolist/bin/www",
+		"/home/hamzaalalach/Desktop/dotolist/package.json",
 		"/home/hamzaalalach/Desktop/tp/index.js",
 		"/home/hamzaalalach/Desktop/dotolist/.gitignore",
 		"/home/hamzaalalach/Desktop/dotolist/index.js",
@@ -488,7 +481,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 108.0,
 		"where_history":
 		[
 		]
@@ -559,6 +552,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -569,69 +563,11 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "bin/www",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 110,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4,
-								4
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 624,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								132,
-								132
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Theme - Piatto/icons/Langs/npm JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index.js",
 					"semi_transient": false,
 					"settings":
