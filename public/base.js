@@ -6,18 +6,18 @@ var txt = document.getElementById('txt'),
 
 
 /*  Events Handler  */
-btn.addEventListener('click', function() {
-	var str = txt.value;
-	if (str.length <= 2) {
-		txt.style.borderTop = '0.8em solid #F00';
-		txt.setAttribute('placeHolder', 'Type something first :D');
-		return false;
-	} else {
-		store(str);
-		txt.style.borderColor = '';
-		txt.value = '';
-	}
-}, false);
+// btn.addEventListener('click', function() {
+// 	var str = txt.value;
+// 	if (str.length <= 2) {
+// 		txt.style.borderTop = '0.8em solid #F00';
+// 		txt.setAttribute('placeHolder', 'Type something first :D');
+// 		return false;
+// 	} else {
+// 		store(str);
+// 		txt.style.borderColor = '';
+// 		txt.value = '';
+// 	}
+// }, false);
 clr.addEventListener('click', function() {
 	if (gItems.length !== 0) {
 		var ask = confirm('Are you sure you want to delete all today\'s tasks?');

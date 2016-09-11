@@ -8,9 +8,11 @@
 </head>
 <body>
 <header>
-	<input type="text" placeholder="Go shopping..." id="txt" autofocus="autofocus" />
-	<input type="submit" id="btn" value="Add" />
-	<input type="button" id="clr" value="Clear" />
+	<form action="/add" method="post" />
+		<input type="text" placeholder="Go shopping..." id="txt" name="add" autofocus="autofocus" />
+		<input type="submit" id="btn" value="Add" />
+		<input type="button" id="clr" value="Clear" />
+	</form>
 </header>
 <section>
 	<ul id="todo">

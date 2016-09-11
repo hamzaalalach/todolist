@@ -318,6 +318,14 @@
 				"buffer_size": 620,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "models/task.js",
+			"settings":
+			{
+				"buffer_size": 171,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -373,7 +381,9 @@
 	"expanded_folders":
 	[
 		"/home/hamzaalalach/Desktop/dotolist",
-		"/home/hamzaalalach/Desktop/dotolist/bin"
+		"/home/hamzaalalach/Desktop/dotolist/bin",
+		"/home/hamzaalalach/Desktop/dotolist/models",
+		"/home/hamzaalalach/Desktop/dotolist/routes"
 	],
 	"file_history":
 	[
@@ -563,7 +573,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -579,8 +589,36 @@
 						"selection":
 						[
 							[
-								433,
-								433
+								619,
+								620
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "models/task.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
