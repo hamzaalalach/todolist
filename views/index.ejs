@@ -15,7 +15,10 @@
 	</form>
 </header>
 <section>
-	<ul id="todo">
+	<ul id="todo" name="todo">
+		<% for(var c in data) {%>
+		<li id="<%= data[c]._id %>"><%= data[c].content %></li>
+		<% } %>
 	</ul>
 </section>
 <script src="jquery-2.2.0.min.js"></script>

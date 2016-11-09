@@ -13,4 +13,28 @@ db.on('open', function() {
 			}
 		})
 	}
+	exports.save = function(newTask) {
+		Task.create([{
+			date: Date.now(),
+			content: newTask
+		}], function(error) {
+			if (error) {
+				console.log(error);
+			}
+		})
+	}
+	exports.removeOne = function(taskId) {
+		Task.remove({_id: taskId}, function(error) {
+			if (error) {
+				console.log(error);
+			}
+		})
+	}
+	exports.edit = function(taskId, newValue) {
+		Task.update({_id: taskId}, {$set: {content: newValue}}, function(error) {
+			if (error) {
+				console.log(error);
+			}
+		})
+	}
 });

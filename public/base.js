@@ -19,19 +19,9 @@ var txt = document.getElementById('txt'),
 // 	}
 // }, false);
 clr.addEventListener('click', function() {
-	if (gItems.length !== 0) {
 		var ask = confirm('Are you sure you want to delete all today\'s tasks?');
 		if (ask) {
-			var i = gItems.length;
-			var b = 0;
-			while (b < i) {
-				gItems.shift();
-				b++;
-				var items = gItems;
-				localStorage["items"] = JSON.stringify(items);
-				window.location.reload();
-			}
-		}
+			window.location = '/ss';
 	} else {
 		return false;
 	}
@@ -41,41 +31,6 @@ txt.addEventListener('keydown', function(e) {
 		btn.click();
 	}
 }, false);
-
-
-/*  Init  */
-(function() {
-	if (localStorage["items"]) {
-		gItems = JSON.parse(localStorage["items"]);
-	} else {
-		var items = [];
-		localStorage["items"] = JSON.stringify(items);
-		gItems = JSON.parse(localStorage["items"]);
-	}
-	var i = gItems.length - 1;
-	var b = 0;
-	while(b <= i){
-		var li = document.createElement('li');
-		li.id = b;
-		li.innerHTML = gItems[b];
-		todo.appendChild(li);
-		b++;
-	}
-})();
-
-
-/*  Store Elements  */
-function store(str) {
-	var i = gItems.length; 
-	gItems[i] = str;
-	var li = document.createElement('li');
-	li.innerHTML = gItems[i];
-	todo.appendChild(li);
-	var items = gItems;
-	localStorage["items"] = JSON.stringify(items);
-	window.location.reload();
-}
-
 
 /*  Delete/Edit Elements  */
 (function() {
@@ -126,23 +81,12 @@ function store(str) {
 				divE = false;
 			}
 			function remove() {
-				gItems = $.grep(gItems, function(value) {
-					return value != gItems[eId];
-				});
-		 		var items = gItems;
-		 		localStorage["items"] = JSON.stringify(items);
-		 		window.location.reload();
+				window.location = '/remove/' + eId;
 		 	}
 		 	function edit() {
 		 		var modElem = prompt('Editing...', e.target.innerHTML);
 		 		if (modElem != e.target.innerHTML && modElem.length >= 3) {
-		 			var gItemsL = gItems.length;
-					for (var i = 0; i < gItemsL; i++) {
-						gItems[eId] = modElem;
-					}
-			 		var items = gItems;
-			 		localStorage["items"] = JSON.stringify(items);
-			 		window.location.reload();
+		 			window.location = '/edit/' + eId + '/' + modElem;
 		 		} else {
 		 			return false;
 		 		}
