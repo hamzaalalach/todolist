@@ -1,7 +1,7 @@
 var mongoose = require('mongoose'),
 	Task = require('../models/task'),
 	db = mongoose.connection;
-mongoose.connect('mongodb://localhost/todo');
+mongoose.connect('mongodb://hamzaalalach:5b7r/69YHG@82s94fr5.@ds021356.mlab.com:21356/todo');
 db.on('error', console.error.bind(console, 'connection error:'));
 db.on('open', function() {
 	exports.findAll = function(callback) {
