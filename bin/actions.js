@@ -1,7 +1,7 @@
 var mongoose = require('mongoose'),
 	Task = require('../models/task'),
 	db = mongoose.connection;
-mongoose.connect('mongodb://hamzaalalach:5b7r/69YHG@82s94fr5.@ds021356.mlab.com:21356/todo');
+mongoose.connect('mongodb://localhost/todo');
 db.on('error', console.error.bind(console, 'connection error:'));
 db.on('open', function() {
 	exports.findAll = function(callback) {
@@ -13,13 +13,15 @@ db.on('open', function() {
 			}
 		})
 	}
-	exports.save = function(newTask) {
+	exports.save = function(newTask, callback) {
 		Task.create([{
 			date: Date.now(),
 			content: newTask
-		}], function(error) {
+		}], function(error, task) {
 			if (error) {
 				console.log(error);
+			} else {
+				callback(task);
 			}
 		})
 	}

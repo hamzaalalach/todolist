@@ -1,8 +1,9 @@
 var express = require('express'),
 	router = express.Router(),
 	actions = require('../bin/actions');
-router.post('/add', function(req, res, next) {
-	actions.save(req.body.add);
-	res.redirect('/');
+router.post('/add/:value', function(req, res, next) {
+	actions.save(req.params.value, function(task) {
+		res.send(task[0]._id);
+	});
 });
 module.exports = router;

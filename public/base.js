@@ -1,23 +1,38 @@
+var xhr;
+if (window.XMLHttpRequest) {
+	xhr = new XMLHttpRequest();
+} else {
+	xhr = new ActiveXObject("Microsoft.XMLHTTP");
+}
 var txt = document.getElementById('txt'),
 	btn = document.getElementById('btn'),
 	todo = document.getElementById('todo'),
-	clr = document.getElementById('clr'),
-	gItems;
+	clr = document.getElementById('clr');
 
 
 /*  Events Handler  */
-// btn.addEventListener('click', function() {
-// 	var str = txt.value;
-// 	if (str.length <= 2) {
-// 		txt.style.borderTop = '0.8em solid #F00';
-// 		txt.setAttribute('placeHolder', 'Type something first :D');
-// 		return false;
-// 	} else {
-// 		store(str);
-// 		txt.style.borderColor = '';
-// 		txt.value = '';
-// 	}
-// }, false);
+btn.addEventListener('click', function() {
+	var str = txt.value;
+	if (str.length <= 2) {
+		txt.style.borderTop = '0.8em solid #F00';
+		txt.setAttribute('placeHolder', 'Type something first :D');
+		return false;
+	} else {
+		txt.style.borderColor = '';
+		txt.value = '';
+		xhr.open('POST', '/add/' + str);
+		xhr.send();
+		xhr.addEventListener('readystatechange', function() {
+			if (this.readyState == 4 & this.status == 200) {
+				var newLi = document.createElement("li"),
+					newLiTxt = document.createTextNode(str);
+				newLi.id = JSON.parse(this.responseText);
+				newLi.appendChild(newLiTxt);
+				document.getElementById("todo").appendChild(newLi);
+			}
+		}, false);
+	}
+}, false);
 clr.addEventListener('click', function() {
 		var ask = confirm('Are you sure you want to delete all today\'s tasks?');
 		if (ask) {
@@ -81,12 +96,16 @@ txt.addEventListener('keydown', function(e) {
 				divE = false;
 			}
 			function remove() {
-				window.location = '/remove/' + eId;
+		 			xhr.open('GET', '/remove/' + eId);
+		 			xhr.send();
+		 			document.getElementById(eId).parentNode.removeChild(e.target);
 		 	}
 		 	function edit() {
 		 		var modElem = prompt('Editing...', e.target.innerHTML);
 		 		if (modElem != e.target.innerHTML && modElem.length >= 3) {
-		 			window.location = '/edit/' + eId + '/' + modElem;
+		 			xhr.open('GET', '/edit/' + eId + '/' + modElem);
+		 			xhr.send();
+		 			document.getElementById(eId).innerHTML = modElem;
 		 		} else {
 		 			return false;
 		 		}
