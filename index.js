@@ -6,10 +6,7 @@ var express = require('express'),
 	helmet = require('helmet'),
 	compression = require('compression'),
 	bodyParser = require('body-parser'),
-	home = require('./routes/home'),
-	add = require('./routes/add'),
-	edit = require('./routes/edit'),
-	remove = require('./routes/remove');
+	home = require('./routes/home');
 app.set('view engine', 'ejs');
 app.use(compression());
 app.use(helmet());
@@ -19,9 +16,6 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(home);
-app.use(add);
-app.use(remove);
-app.use(edit);
 app.use(function(req, res, next) {
 	res.status(404).send('Not found!');
 });
