@@ -1,6 +1,6 @@
 var mongoose = require('mongoose'),
 	taskSchema = mongoose.Schema({
-		date: Date,
+		date: String,
 		content: String
 	}),
 	Task = mongoose.model('Task', taskSchema);

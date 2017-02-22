@@ -86,6 +86,13 @@ section ul#todo li {
 	-ms-user-select: none;
 	user-select: none;
 }
+section ul#todo li span {
+	position: relative;
+	color: #FFF;
+	font-size: 0.6em;
+	left: 70%;
+	top: 2em;
+}
 section ul#todo li:first-letter {
 	text-transform: capitalize;
 }

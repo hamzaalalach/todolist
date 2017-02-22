@@ -15,7 +15,7 @@
 <section>
 	<ul id="todo" name="todo">
 		<% for(var c in data) {%>
-		<li id="<%= data[c]._id %>"><%= data[c].content %></li>
+		<li id="<%= data[c]._id %>"><%= data[c].content %><span id="creationDate"><%= data[c].date %></span></li>
 		<% } %>
 	</ul>
 </section>
