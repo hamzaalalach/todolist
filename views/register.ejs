@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register | Todo List</title>
+	<link href="base.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<section>
+		<h1>Register</h1>
+		<form method="POST" action="/register" id="form">
+			<input type="text" name="firstName" placeholder="first name" id="firstName" />
+			<input type="text" name="username" placeholder="username" id="username" />
+			<input type="email" name="email" placeholder="email" id="email" />
+			<input type="password" name="password" placeholder="password" id="password" />
+			<input type="password" name="conPassword" placeholder="re-enter password" id="conPassword" />
+			<input type="submit" value="register" id="submit" />
+		</form>
+	</section>
+<script src="scripts/loRegister.js"></script>
+</body>
+</html>

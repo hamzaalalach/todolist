@@ -134,6 +134,10 @@ section ul#todo li:first-letter {
 		font-size: 0.8em;
 		width: 90%;
 		margin: auto;
+		left: -1.5em;
+	}
+	header input#txt, header input#btn, header input#clr {
+		left: -1.5em;
 	}
 	header input#btn, header input#clr, header input#btn:visited, header input#clr:visited {
 		font-size: 0.8em;

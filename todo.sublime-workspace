@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"register"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"user",
+				"userSchema"
+			],
+			[
 				"Re",
 				"RegExp"
 			],
 			[
 				"new",
 				"newSpanTxt"
-			],
-			[
-				"re",
-				"responseText"
 			],
 			[
 				"fon",
@@ -154,10 +162,6 @@
 			[
 				"marg",
 				"margin"
-			],
-			[
-				"in",
-				"inline-block"
 			],
 			[
 				"margi",
@@ -352,21 +356,26 @@
 	"buffers":
 	[
 		{
-			"contents": "@charset \"utf-8\";\n\nheader, section, footer, aside, nav, main, article, figure {\n	display: block;\n}\nbody {\n	margin: 0;\n	padding: 0;\n}\nheader {\n	position: relative;\n	width: 43.75em;\n	margin-left: auto;\n	margin-right: auto;\n	text-align: center;\n	top: 4em;\n	left: 0.8em;\n}\nheader input#txt, header input#btn, header input#clr {\n	position: relative;\n	display: block;\n}\nheader input#txt {\n	width: 38em;\n	color: #999;\n	text-shadow: 0em 0.06em #333;\n	font-style: italic;\n	padding: 1em 1.5em;\n	font-size: 0.9em;\n	line-height: 3em;\n	margin-left: auto;\n	margin-right: auto;\n	border-color: transparent;\n	border-top-width: 0.8em;\n	border-top-color: #999;\n	background-color: rgba(0, 0, 0, 0.03);\n}\nheader input#btn, header input#clr, header input#btn:visited, header input#clr:visited {\n	display: inline;\n	padding: 1em 2em;\n	top: 1em;\n	border: 0;\n	color: #333;\n	font-size: 1em;\n	font-weight: bold;\n	text-transform: uppercase;\n	background-color: #FF6666;\n	text-shadow: 0.05em 0.05em #999;\n	border-radius: 1em;\n	-moz-border-radius: 1em;\n	-webkit-border-radius: 1em;\n	-khtml-border-radius: 1em;\n}\nheader input#btn:hover, header input#clr:hover {\n	color: #FF6666;\n	background-color: #333;\n	transition: color 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s;\n}\nheader input#btn:focus, header input#clr:focus {\n	color: #999;\n	\n	transition: color 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s;\n}\nheader input#btn {\n	margin-right: 0.7em;\n}\nsection {\n	position: relative;\n	width: 43.75em;\n	margin-left: auto;\n	margin-right: auto;\n	top: 12em;\n}\nsection ul#todo li {\n	margin-top: 0.5em;\n	padding: 1.5em;\n	font-size: 1.3em;\n	color: #FF6666;\n	background-color: #333;\n	font-weight: bold;\n	font-style: italic;\n	list-style-type: upper-roman;\n	text-align: justify;\n	-webkit-user-select: none;\n	-moz-user-select: none;\n	-ms-user-select: none;\n	user-select: none;\n}\nsection ul#todo li span {\n	position: relative;\n	color: #FFF;\n	font-size: 0.6em;\n	left: 70%;\n	top: 2em;\n}\nsection ul#todo li:first-letter {\n	text-transform: capitalize;\n}\n@media all and (max-width: 800px) \n.menu {\n	position: absolute;\n	width: 7em;\n	height: 5em;\n	background-color: #FF6666;\n	box-shadow: 0em 0em 2em #000;\n}\n.menu ul {\n	position: relative;\n	font-size: 0.85em;\n	font-family: Impact, Charcoal, sans-serif;\n	top: -0.2em;\n	text-align: center;\n}\n.menu ul li {\n	color: #222;\n	cursor: pointer;\n	position: relative;\n	list-style-type: none;\n	display: block;\n	left: -2.95em;\n	padding-top: 0.5em;\n	padding-bottom: 0.5em;\n	width: 8.25em;\n}\n.menu ul li:hover {\n	background-color: #999;\n}",
-			"file": "public/base.css",
-			"file_size": 2513,
-			"file_write_time": 131322824658813745,
+			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 2548,
+				"buffer_size": 1233,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "bin/actions.js",
+			"file": "routes/login.js",
 			"settings":
 			{
-				"buffer_size": 1314,
+				"buffer_size": 154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/register.js",
+			"settings":
+			{
+				"buffer_size": 365,
 				"line_ending": "Unix"
 			}
 		},
@@ -379,34 +388,50 @@
 			}
 		},
 		{
-			"file": "views/index.ejs",
+			"file": "models/user.js",
 			"settings":
 			{
-				"buffer_size": 741,
+				"buffer_size": 210,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "routes/edit.js",
+			"file": "bin/actions.js",
 			"settings":
 			{
-				"buffer_size": 246,
+				"buffer_size": 1314,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "routes/home.js",
+			"file": "views/register.ejs",
 			"settings":
 			{
-				"buffer_size": 249,
+				"buffer_size": 764,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "routes/remove.js",
+			"file": "public/scripts/loRegister.js",
 			"settings":
 			{
-				"buffer_size": 304,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/login.ejs",
+			"settings":
+			{
+				"buffer_size": 543,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/dashboard.js",
+			"settings":
+			{
+				"buffer_size": 258,
 				"line_ending": "Unix"
 			}
 		},
@@ -415,14 +440,6 @@
 			"settings":
 			{
 				"buffer_size": 3571,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/add.js",
-			"settings":
-			{
-				"buffer_size": 316,
 				"line_ending": "Unix"
 			}
 		}
@@ -483,20 +500,25 @@
 		"/home/hamzaalalach/Desktop/todolist/bin",
 		"/home/hamzaalalach/Desktop/todolist/models",
 		"/home/hamzaalalach/Desktop/todolist/public",
+		"/home/hamzaalalach/Desktop/todolist/public/scripts",
 		"/home/hamzaalalach/Desktop/todolist/routes",
 		"/home/hamzaalalach/Desktop/todolist/views"
 	],
 	"file_history":
 	[
-		"/home/hamzaalalach/Desktop/todolist/bin/actions.js",
-		"/home/hamzaalalach/Desktop/todolist/index.js",
+		"/home/hamzaalalach/Desktop/todolist/public/scripts/loRegister.js",
+		"/home/hamzaalalach/Desktop/todolist/public/scripts/register.js",
+		"/home/hamzaalalach/Desktop/todolist/views/index.ejs",
 		"/home/hamzaalalach/Desktop/todolist/routes/add.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/edit.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/remove.js",
+		"/home/hamzaalalach/Desktop/todolist/package.json",
+		"/home/hamzaalalach/Desktop/todolist/public/base.css",
+		"/home/hamzaalalach/Desktop/todolist/bin/actions.js",
+		"/home/hamzaalalach/Desktop/todolist/index.js",
 		"/home/hamzaalalach/Desktop/todolist/models/task.js",
 		"/home/hamzaalalach/Desktop/todolist/public/base.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/home.js",
-		"/home/hamzaalalach/Desktop/todolist/views/index.ejs",
 		"/home/hamzaalalach/Arduino/libraries/readme.txt",
 		"/home/hamzaalalach/Desktop/todolist/views/red.ejs",
 		"/usr/games/gnome-sudoku",
@@ -607,7 +629,7 @@
 	],
 	"find":
 	{
-		"height": 50.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -621,6 +643,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Strategy",
+			"home",
+			"top",
+			"margin-toptop",
+			"margin-top",
 			"li",
 			")\n",
 			"store",
@@ -697,53 +724,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/base.css",
+					"file": "index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2548,
+						"buffer_size": 1233,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2064,
-								2064
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 990.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "bin/actions.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1314,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								100,
-								100
+								1015,
+								1015
 							]
 						],
 						"settings":
@@ -755,11 +753,67 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "routes/register.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "models/task.js",
 					"semi_transient": false,
 					"settings":
@@ -783,30 +837,87 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 3,
-					"file": "views/index.ejs",
+					"buffer": 4,
+					"file": "models/user.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 741,
+						"buffer_size": 210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								588,
-								588
+								210,
+								210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "bin/actions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/register.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								727,
+								727
 							]
 						],
 						"settings":
@@ -822,20 +933,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "routes/edit.js",
+					"buffer": 7,
+					"file": "public/scripts/loRegister.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 246,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								217,
-								217
+								0,
+								0
 							]
 						],
 						"settings":
@@ -846,29 +957,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "routes/home.js",
+					"buffer": 8,
+					"file": "views/login.ejs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 249,
+						"buffer_size": 543,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								214,
-								214
+								235,
+								235
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -878,20 +989,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "routes/remove.js",
+					"buffer": 9,
+					"file": "routes/dashboard.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 304,
+						"buffer_size": 258,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								304,
-								304
+								122,
+								122
 							]
 						],
 						"settings":
@@ -902,11 +1013,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "public/base.js",
 					"semi_transient": false,
 					"settings":
@@ -928,38 +1039,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "routes/add.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 316,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								282,
-								282
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1026,16 +1109,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "hamza",
 		"selected_items":
 		[
 			[
-				"",
-				"/opt/lampp/htdocs/alchdev/alchdev.sublime-project"
-			],
-			[
 				"hamza",
 				"/opt/lampp/htdocs/ohamzaalalach/hamzaalalach.sublime-project"
+			],
+			[
+				"",
+				"/opt/lampp/htdocs/alchdev/alchdev.sublime-project"
 			],
 			[
 				"xo",
@@ -1053,7 +1136,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
