@@ -7,8 +7,8 @@ var mongoose = require('mongoose'),
 mongoose.connect('mongodb://localhost/todo');
 db.on('error', console.error.bind(console, 'connection error:'));
 db.on('open', function() {
-	exports.findAll = function(callback) {
-		Task.find(function(error, data) {
+	exports.findAll = function(username, callback) {
+		Task.find({"username": username}, function(error, data) {
 			if (error) {
 				console.log(error);
 			} else {
@@ -16,7 +16,7 @@ db.on('open', function() {
 			}
 		});
 	}
-	exports.save = function(newTask, callback) {
+	exports.save = function(newTask, username, callback) {
 		var date,
 			currentDate = Date.now();
 		if (/(\w+\s\w+\s\d+\s)\d+\s([0-9-:]+)/.test(new Date(currentDate))) {
@@ -26,7 +26,8 @@ db.on('open', function() {
 		}
 		Task.create([{
 			date: date,
-			content: newTask
+			content: newTask,
+			username: username
 		}], function(error, task) {
 			if (error) {
 				console.log(error);
