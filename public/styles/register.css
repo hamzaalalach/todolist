@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F3F3F3;
+}
+header {
+	position: relative;
+	width: 100%;
+	top: 3em;
+	background-image: url("../images/hmalch.png");
+	background-repeat: no-repeat;
+	background-size: 5em;
+	background-position: center center;
+	height: 10em;
+	margin: auto;
+}
+section {
+	position: relative;
+	width: 100%;
+}
+section form {
+	position: relative;
+	width: 25em;
+	margin: auto;
+	top: 5em;
+	background-color: #FFF;
+	height: 36em;
+	text-align: center;
+}
+section form h1 {
+	position: relative;
+	text-decoration: underline;
+	top: 1em;
+	color: #6A6A6A;
+	text-align: center;
+	font-size: 2.2em;
+	font-family: nova-mono, sans-serif;
+}
+section form input {
+	position: relative;
+	display: block;
+	font-family: knewave, fantasy;
+	top: 4em;
+}
+section form input#username, input#password, input#firstName, input#email, input#conPassword {
+	border: 0.1em solid #999;
+	background-color: #F3F3F3;
+	margin-bottom: 1em;
+	line-height: 2.5em;
+	width: 16em;
+	padding: 0 0.9em;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius: 1em;
+	-khtml-border-radius: 1em;  
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+}
+section form input#submit {
+	width: 16em;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius: 1em;
+	-khtml-border-radius: 1em;  
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	line-height: 2em;
+	background-color: #2DBE60;
+	border: 0.1em solid #2DBE60;
+	color: #FFF;
+	cursor: pointer;
+}
+section form input#submit:hover {
+	color: #2DBE60;
+	background-color: #FFF;
+}
+section form span {
+	position: relative;
+	top: 6em;
+	font-family: nova-mono, sans-serif;
+}
+section form span p, section form span a {
+	font-size: 0.9em;
+	color: #2DBE60;
+	text-shadow: 0.05em 0.05em 0.05em #2DBE60;
+}
+section form span a {
+	text-decoration: none;
+}
+@media all and (max-width: 600px) {
+	header {
+		height: 5em;
+		top: 0.5em;
+	}
+	section form {
+		width: 100%;
+		top: 1em;
+	}
+}

@@ -54,6 +54,11 @@ username.addEventListener('keydown', verUsername, false);
 email.addEventListener('keydown', verEmail, false);
 password.addEventListener('keydown', verPassword, false);
 conPassword.addEventListener('keydown', verConPassword, false);
+firstName.addEventListener('blur', verFirstName, false);
+username.addEventListener('blur', verUsername, false);
+email.addEventListener('blur', verEmail, false);
+password.addEventListener('blur', verPassword, false);
+conPassword.addEventListener('blur', verConPassword, false);
 document.getElementById('form').addEventListener('submit', function(e) {
 	verFirstName();
 	verUsername();

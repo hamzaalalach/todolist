@@ -4,17 +4,23 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login | Todo List</title>
-	<link href="base.css" rel="stylesheet" type="text/css" />
+	<link href="styles/login.css" rel="stylesheet" type="text/css" />
+	<script src="//use.edgefonts.net/nova-mono;knewave.js"></script> 
 </head>
 <body>
+	<header></header>
 	<section>
-		<h1>Login</h1>
-		<form method="POST" action="/login">
-			<input type="text" name="username" placeholder="username" />
-			<input type="password" name="password" placeholder="password" />
-			<input type="submit" value="login" />
+		<form method="POST" action="/login" id="form">
+			<h1>Sign in</h1>
+			<input type="text" name="username" placeholder="Username" id="username" />
+			<input type="password" name="password" placeholder="Password" id="password" />
+			<input type="submit" value="login" id="submit" />
+			<span>
+				<p>Don't have an account?</p>
+				<a href="/register">Create account</a>
+			</span>
 		</form>
 	</section>
-<script src="base.js"></script>
+<script src="scripts/loLogin.js"></script>
 </body>
 </html>

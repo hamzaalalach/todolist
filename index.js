@@ -19,7 +19,7 @@ app.set('view engine', 'ejs');
 app.use(compression());
 app.use(helmet());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(favicon(path.join(__dirname, '/public/images/favicon.ico')));
+app.use(favicon(path.join(__dirname, '/public/images/favicon.png')));
 app.use(logger(':method :url :status :response-time ms :remote-addr'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
