@@ -124,3 +124,70 @@ section ul#todo li:first-letter {
 .menu ul li:hover {
 	background-color: #999;
 }
+@media all and (max-width: 800px) {
+	header {
+		top: 1em;
+		width: 80%;
+		font-size: 0.9em;
+	}
+	header input#txt {
+		font-size: 0.8em;
+		width: 90%;
+		margin: auto;
+	}
+	header input#btn, header input#clr, header input#btn:visited, header input#clr:visited {
+		font-size: 0.8em;
+	}
+	section {
+		width: 100%;
+		margin: auto;
+		top: 5em;
+	}
+	section ul#todo li {
+		position: relative;
+		font-size: 0.9em;
+		width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+		left: -2%;
+	}
+	section ul#todo li span {
+		font-size: 0.7em;
+	}
+}
+@media all and (max-width: 500px) {
+	header {
+		top: 1em;
+		font-size: 0.8em;
+	}
+	header input#txt {
+		font-size: 0.7em;
+	}
+	header input#btn, header input#clr, header input#btn:visited, header input#clr:visited {
+		font-size: 0.7em;
+	}
+	section {
+		width: 93%;
+		top: 3em;
+	}
+	section ul#todo li {
+		font-size: 0.7em;
+		width: 100%;
+		left: -11%;
+	}
+	section ul#todo li span {
+		left: 60%;
+	}
+	.menu {
+		width: 5em;
+		height: 3.5em;
+		box-shadow: 0em 0em 1em #000;
+	}
+	.menu ul {
+		font-size: 0.6em;
+	}
+	.menu ul li {
+		width: 5em;
+		left: -2.3em;
+	}
+}

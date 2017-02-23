@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"Re",
+				"RegExp"
+			],
+			[
 				"new",
-				"newLi"
+				"newSpanTxt"
+			],
+			[
+				"re",
+				"responseText"
+			],
+			[
+				"fon",
+				"font-size"
 			],
 			[
 				"get",
@@ -34,10 +46,6 @@
 			[
 				"req",
 				"req"
-			],
-			[
-				"re",
-				"remove"
 			],
 			[
 				"wn",
@@ -122,10 +130,6 @@
 			[
 				"ma",
 				"margin"
-			],
-			[
-				"fon",
-				"font-style"
 			],
 			[
 				"bor",
@@ -348,66 +352,13 @@
 	"buffers":
 	[
 		{
-			"file": "views/index.ejs",
+			"contents": "@charset \"utf-8\";\n\nheader, section, footer, aside, nav, main, article, figure {\n	display: block;\n}\nbody {\n	margin: 0;\n	padding: 0;\n}\nheader {\n	position: relative;\n	width: 43.75em;\n	margin-left: auto;\n	margin-right: auto;\n	text-align: center;\n	top: 4em;\n	left: 0.8em;\n}\nheader input#txt, header input#btn, header input#clr {\n	position: relative;\n	display: block;\n}\nheader input#txt {\n	width: 38em;\n	color: #999;\n	text-shadow: 0em 0.06em #333;\n	font-style: italic;\n	padding: 1em 1.5em;\n	font-size: 0.9em;\n	line-height: 3em;\n	margin-left: auto;\n	margin-right: auto;\n	border-color: transparent;\n	border-top-width: 0.8em;\n	border-top-color: #999;\n	background-color: rgba(0, 0, 0, 0.03);\n}\nheader input#btn, header input#clr, header input#btn:visited, header input#clr:visited {\n	display: inline;\n	padding: 1em 2em;\n	top: 1em;\n	border: 0;\n	color: #333;\n	font-size: 1em;\n	font-weight: bold;\n	text-transform: uppercase;\n	background-color: #FF6666;\n	text-shadow: 0.05em 0.05em #999;\n	border-radius: 1em;\n	-moz-border-radius: 1em;\n	-webkit-border-radius: 1em;\n	-khtml-border-radius: 1em;\n}\nheader input#btn:hover, header input#clr:hover {\n	color: #FF6666;\n	background-color: #333;\n	transition: color 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s;\n}\nheader input#btn:focus, header input#clr:focus {\n	color: #999;\n	\n	transition: color 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s;\n}\nheader input#btn {\n	margin-right: 0.7em;\n}\nsection {\n	position: relative;\n	width: 43.75em;\n	margin-left: auto;\n	margin-right: auto;\n	top: 12em;\n}\nsection ul#todo li {\n	margin-top: 0.5em;\n	padding: 1.5em;\n	font-size: 1.3em;\n	color: #FF6666;\n	background-color: #333;\n	font-weight: bold;\n	font-style: italic;\n	list-style-type: upper-roman;\n	text-align: justify;\n	-webkit-user-select: none;\n	-moz-user-select: none;\n	-ms-user-select: none;\n	user-select: none;\n}\nsection ul#todo li span {\n	position: relative;\n	color: #FFF;\n	font-size: 0.6em;\n	left: 70%;\n	top: 2em;\n}\nsection ul#todo li:first-letter {\n	text-transform: capitalize;\n}\n@media all and (max-width: 800px) \n.menu {\n	position: absolute;\n	width: 7em;\n	height: 5em;\n	background-color: #FF6666;\n	box-shadow: 0em 0em 2em #000;\n}\n.menu ul {\n	position: relative;\n	font-size: 0.85em;\n	font-family: Impact, Charcoal, sans-serif;\n	top: -0.2em;\n	text-align: center;\n}\n.menu ul li {\n	color: #222;\n	cursor: pointer;\n	position: relative;\n	list-style-type: none;\n	display: block;\n	left: -2.95em;\n	padding-top: 0.5em;\n	padding-bottom: 0.5em;\n	width: 8.25em;\n}\n.menu ul li:hover {\n	background-color: #999;\n}",
+			"file": "public/base.css",
+			"file_size": 2513,
+			"file_write_time": 131322824658813745,
 			"settings":
 			{
-				"buffer_size": 691,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/home.js",
-			"settings":
-			{
-				"buffer_size": 237,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/base.js",
-			"settings":
-			{
-				"buffer_size": 3134,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "models/task.js",
-			"settings":
-			{
-				"buffer_size": 171,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/remove.js",
-			"settings":
-			{
-				"buffer_size": 280,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/edit.js",
-			"settings":
-			{
-				"buffer_size": 234,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "routes/add.js",
-			"settings":
-			{
-				"buffer_size": 261,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.js",
-			"settings":
-			{
-				"buffer_size": 850,
+				"buffer_size": 2548,
 				"line_ending": "Unix"
 			}
 		},
@@ -415,7 +366,63 @@
 			"file": "bin/actions.js",
 			"settings":
 			{
-				"buffer_size": 1133,
+				"buffer_size": 1314,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/task.js",
+			"settings":
+			{
+				"buffer_size": 173,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 741,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/edit.js",
+			"settings":
+			{
+				"buffer_size": 246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/home.js",
+			"settings":
+			{
+				"buffer_size": 249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/remove.js",
+			"settings":
+			{
+				"buffer_size": 304,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/base.js",
+			"settings":
+			{
+				"buffer_size": 3571,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/add.js",
+			"settings":
+			{
+				"buffer_size": 316,
 				"line_ending": "Unix"
 			}
 		}
@@ -481,7 +488,15 @@
 	],
 	"file_history":
 	[
+		"/home/hamzaalalach/Desktop/todolist/bin/actions.js",
+		"/home/hamzaalalach/Desktop/todolist/index.js",
+		"/home/hamzaalalach/Desktop/todolist/routes/add.js",
+		"/home/hamzaalalach/Desktop/todolist/routes/edit.js",
+		"/home/hamzaalalach/Desktop/todolist/routes/remove.js",
+		"/home/hamzaalalach/Desktop/todolist/models/task.js",
 		"/home/hamzaalalach/Desktop/todolist/public/base.js",
+		"/home/hamzaalalach/Desktop/todolist/routes/home.js",
+		"/home/hamzaalalach/Desktop/todolist/views/index.ejs",
 		"/home/hamzaalalach/Arduino/libraries/readme.txt",
 		"/home/hamzaalalach/Desktop/todolist/views/red.ejs",
 		"/usr/games/gnome-sudoku",
@@ -682,250 +697,45 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "views/index.ejs",
+					"file": "public/base.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 691,
+						"buffer_size": 2548,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								675,
-								675
+								2064,
+								2064
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "routes/home.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 990.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "public/base.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3134,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1541,
-								1541
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "models/task.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								171,
-								171
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 4,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "routes/remove.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								251,
-								251
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "routes/edit.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 234,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								234,
-								234
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "routes/add.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								236,
-								236
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 850,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								850,
-								850
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 1,
 					"file": "bin/actions.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1133,
+						"buffer_size": 1314,
 						"regions":
 						{
 						},
@@ -945,7 +755,211 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "models/task.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "views/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								588,
+								588
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "routes/edit.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "routes/home.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "routes/remove.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/base.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "routes/add.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1012,16 +1026,20 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "xo",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"xo",
-				"/opt/lampp/htdocs/XO/XO.sublime-project"
-			],
-			[
 				"",
 				"/opt/lampp/htdocs/alchdev/alchdev.sublime-project"
+			],
+			[
+				"hamza",
+				"/opt/lampp/htdocs/ohamzaalalach/hamzaalalach.sublime-project"
+			],
+			[
+				"xo",
+				"/opt/lampp/htdocs/XO/XO.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -3,8 +3,10 @@ var express = require('express'),
 	actions = require('../bin/actions');
 router.get('/remove/:id', function(req, res) {
 	actions.removeOne(req.params.id);
+	res.end();
 });
 router.get('/remove/', function(req, res) {
 	actions.removeAll();
+	res.end();
 });
 module.exports = router;
