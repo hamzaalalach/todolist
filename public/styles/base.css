@@ -6,192 +6,148 @@ header, section, footer, aside, nav, main, article, figure {
 body {
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #F3F3F3;
 }
 header {
 	position: relative;
-	width: 43.75em;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	top: 4em;
-	left: 0.8em;
+	width: 40em;
+	margin: auto;
+	background-image: url("../images/hmalch.png");
+	background-repeat: no-repeat;
+	background-size: 4em;
+	position: left top;
+	height: 4em;
+	background-color: #FFF;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
-header input#txt, header input#btn, header input#clr {
-	position: relative;
-	display: block;
-}
-header input#txt {
-	width: 38em;
-	color: #999;
-	text-shadow: 0em 0.06em #333;
-	font-style: italic;
-	padding: 1em 1.5em;
-	font-size: 0.9em;
-	line-height: 3em;
-	margin-left: auto;
-	margin-right: auto;
-	border-color: transparent;
-	border-top-width: 0.8em;
-	border-top-color: #999;
-	background-color: rgba(0, 0, 0, 0.03);
-}
-header input#btn, header input#clr, header input#btn:visited, header input#clr:visited {
+header h1 {
+	font-family: nova-mono, sans-serif;
 	display: inline;
-	padding: 1em 2em;
-	top: 1em;
-	border: 0;
-	color: #333;
-	font-size: 1em;
-	font-weight: bold;
-	text-transform: uppercase;
-	background-color: #FF6666;
-	text-shadow: 0.05em 0.05em #999;
-	border-radius: 1em;
-	-moz-border-radius: 1em;
-	-webkit-border-radius: 1em;
-	-khtml-border-radius: 1em;
+	position: relative;
+	left: 5em;
+	top: 1.7em;
+	font-size: 0.9em;
+	color: #2DBE60;
+	text-shadow: 0.05em 0.05em 0.05em #2DBE60;
 }
-header input#btn:hover, header input#clr:hover {
-	color: #FF6666;
-	background-color: #333;
-	transition: color 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s;
+header nav {
+	position: relative;
+	float: right;
 }
-header input#btn:focus, header input#clr:focus {
-	color: #999;
-	
-	transition: color 0.3s ease-in-out 0s, border-bottom-color 0.3s ease-in-out 0s;
+header nav li {
+	display: inline;
+	list-style-type: none;
 }
-header input#btn {
-	margin-right: 0.7em;
+header nav li a {
+	font-family: knewave, fantasy;
+	text-decoration: none;
+	padding: 1em;
+	line-height: 2em;
+	color: #2DBE60;
+	cursor: pointer;
+}
+header nav li a:hover {
+	color: #F3F3F3;
+	transition: color 0.5s ease;
 }
 section {
 	position: relative;
-	width: 43.75em;
+	width: 40em;
 	margin-left: auto;
 	margin-right: auto;
-	top: 12em;
+	text-align: center;
 }
-section ul#todo li {
+section input#tsk {
+	display: block;
+	position: relative;
+	font-family: nova-mono, sans-serif;
+	color: #6A6A6A;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 0.2em solid #2DBE60;
+	width: 40em;
+	line-height: 4em;
+	padding: 0 1.5em;
+}
+section input#submit, section input#clr {
+	font-family: knewave, fantasy;
+	display: inline-block;
+	position: relative;
+	top: 1.5em;
+	width: 10em;
+	-webkit-border-radius: 1.5em;
+	-khtml-border-radius: 1.5em;  
+	-moz-border-radius: 1.5em;
+	border-radius: 1.5em;
+	line-height: 2em;
+	background-color: #2DBE60;
+	border: 0.1em solid #2DBE60;
+	color: #FFF;
+	cursor: pointer;
+}
+section input#submit:hover, section input#clr:hover {
+	color: #2DBE60;
+	background-color: #FFF;
+	transition: background-color 1s ease, color 0.5s linear;
+}
+section input#submit:focus, section input#clr:focus {
+	color: #2DBE60;
+	background-color: #FFF;
+}
+section input#submit {
+	margin-right: 0.7em;
+}
+section div {
+	position: relative;
+	top: 5em;
+	left: -1em;
+	width: 100%;
 	margin-top: 0.5em;
-	padding: 1.5em;
-	font-size: 1.3em;
-	color: #FF6666;
-	background-color: #333;
-	font-weight: bold;
-	font-style: italic;
-	list-style-type: upper-roman;
-	text-align: justify;
+	font-family: nova-mono, sans-serif;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
 }
-section ul#todo li span {
-	position: relative;
-	color: #FFF;
-	font-size: 0.6em;
-	left: 70%;
-	top: 2em;
+section ul#todo div li {
+	line-height: 4em;
+	padding: 0 1em;
+	font-size: 1.2em;
+	color: #FF6666;
+	background-color: #333;
+	list-style-type: upper-roman;
+	text-align: justify;
 }
-section ul#todo li:first-letter {
-	text-transform: capitalize;
-}
-.menu {
+section ul#todo div span {
 	position: absolute;
-	width: 7em;
-	height: 5em;
-	background-color: #FF6666;
-	box-shadow: 0em 0em 2em #000;
+	color: #FFF;
+	font-size: 0.7em;
+	left: 2em;
+	top: 5em;
 }
-.menu ul {
-	position: relative;
-	font-size: 0.85em;
-	font-family: Impact, Charcoal, sans-serif;
-	top: -0.2em;
-	text-align: center;
-}
-.menu ul li {
-	color: #222;
-	cursor: pointer;
-	position: relative;
-	list-style-type: none;
+section ul#todo div button {
 	display: block;
-	left: -2.95em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	width: 8.25em;
+	position: relative;
+	top: -5.25em;
+	border: 0;
+	line-height: 2.5em;
+	float: right;
+	clear: both;
+	width: 5em;
+	cursor: pointer;
+	font-family: knewave, fantasy;
+	background-color: #F3F3F3;
 }
-.menu ul li:hover {
-	background-color: #999;
+section ul#todo div button:hover {
+	color: #F3F3F3;
+	background-color: #333;
 }
-@media all and (max-width: 800px) {
-	header {
-		top: 1em;
-		width: 80%;
-		font-size: 0.9em;
-	}
-	header input#txt {
-		font-size: 0.8em;
-		width: 90%;
-		margin: auto;
-		left: -1.5em;
-	}
-	header input#txt, header input#btn, header input#clr {
-		left: -1.5em;
-	}
-	header input#btn, header input#clr, header input#btn:visited, header input#clr:visited {
-		font-size: 0.8em;
-	}
-	section {
-		width: 100%;
-		margin: auto;
-		top: 5em;
-	}
-	section ul#todo li {
-		position: relative;
-		font-size: 0.9em;
-		width: 92%;
-		margin-left: auto;
-		margin-right: auto;
-		left: -2%;
-	}
-	section ul#todo li span {
-		font-size: 0.7em;
-	}
-}
-@media all and (max-width: 500px) {
-	header {
-		top: 1em;
-		font-size: 0.8em;
-	}
-	header input#txt {
-		font-size: 0.7em;
-	}
-	header input#btn, header input#clr, header input#btn:visited, header input#clr:visited {
-		font-size: 0.7em;
-	}
-	section {
-		width: 93%;
-		top: 3em;
-	}
-	section ul#todo li {
-		font-size: 0.7em;
-		width: 100%;
-		left: -11%;
-	}
-	section ul#todo li span {
-		left: 60%;
-	}
-	.menu {
-		width: 5em;
-		height: 3.5em;
-		box-shadow: 0em 0em 1em #000;
-	}
-	.menu ul {
-		font-size: 0.6em;
-	}
-	.menu ul li {
-		width: 5em;
-		left: -2.3em;
-	}
+section ul#todo div li:first-letter {
+	text-transform: capitalize;
 }

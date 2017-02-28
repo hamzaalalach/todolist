@@ -3,9 +3,13 @@ var express = require('express'),
 	actions = require('../bin/actions');
 router.get('/dashboard', ensureAuthenticated, function(req, res) {
 	actions.findAll(req.user.username, function(data) {
-		res.render('index', {data});
-		res.end();	
+		user = req.user;
+		res.render('index', {data, user});
 	});
+});
+router.get('/dashboard/logout', function(req, res) {
+	req.logout();
+	res.redirect('/login');
 });
 function ensureAuthenticated(req, res, next) {
 	if (req.isAuthenticated()) {

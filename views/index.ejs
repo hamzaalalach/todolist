@@ -5,20 +5,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Todo List | What's next?</title>
 	<link href="styles/base.css" rel="stylesheet" type="text/css" />
+	<script src="//use.edgefonts.net/nova-mono;knewave.js"></script> 
 </head>
 <body>
-<header>
-	<input type="text" placeholder="Go shopping..." id="txt" name="add" autofocus="autofocus" />
-	<input type="submit" id="btn" value="Add" />
-	<input type="button" id="clr" value="Clear" />
-</header>
-<section>
-	<ul id="todo" name="todo">
-		<% for(var c in data) {%>
-		<li id="<%= data[c]._id %>"><%= data[c].content %><span id="creationDate"><%= data[c].date %></span></li>
-		<% } %>
-	</ul>
-</section>
-<script src="scripts/base.js"></script>
+	<header>
+		<h1 id="user">Logged as: <%= user.username %></h1>	
+		<nav>
+			<ul id="nav">
+				<li><a href="/dashboard/settings">Settings</a></li>
+				<li><a href="/dashboard/logout">Logout</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<input type="text" placeholder="Go shopping..." id="tsk" name="add" autofocus="autofocus" />
+		<input type="submit" id="submit" value="Add" />
+		<input type="button" id="clr" value="Clear" />
+		<ul id="todo" name="todo">
+			<% for(var c in data) {%>
+			<div id="<%= data[c]._id %>">
+				<li><%= data[c].content %></li>
+				<span id="creationDate"><%= data[c].date %></span>
+				<button class="edit">Edit</button>
+				<button class="remove">Remove</button>
+			</div>
+			<% } %>
+		</ul>
+	</section>
+	<script src="scripts/base.js"></script>
 </body>
 </html>

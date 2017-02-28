@@ -78,6 +78,7 @@ section form input#submit {
 section form input#submit:hover {
 	color: #2DBE60;
 	background-color: #FFF;
+	transition: background-color 1s ease, color 0.5s linear;
 }
 section form span {
 	position: relative;
