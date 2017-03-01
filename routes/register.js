@@ -38,8 +38,14 @@ router.post('/register', function(req, res) {
 		check.conPassword = false;
 	}
 	if (check.firstName && check.username && check.email && check.password && check.conPassword) {
-		actions.createUser(firstName, username, email, password);
-		res.redirect('/login');
+		actions.getUserByUsername(username, function(user) {
+			if (!user) {
+				actions.createUser(firstName, username, email, password);
+				res.redirect('/login');
+			} else {
+				console.log('Username taken');
+			}
+		});
 	}
 });
 module.exports = router;

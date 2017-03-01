@@ -151,3 +151,48 @@ section ul#todo div button:hover {
 section ul#todo div li:first-letter {
 	text-transform: capitalize;
 }
+@media all and (max-width: 640px) {
+	header {
+		width: 100%;
+		font-size: 0.8em;
+	}
+	header nav li a {
+		padding: 0.8em;
+	}
+	header h1 {
+		top: 1.45em;
+	}
+	section {
+		width: 100%;
+	}
+	section input#tsk {
+		width: 90%;
+		margin: auto;
+		font-size: 0.7em;
+	}
+	section input#submit, section input#clr {
+		font-size: 0.7em;
+	}
+	section ul#todo div {
+		top: 3em;
+	}
+	section ul#todo div li {
+		position: relative;
+		width: 100%;
+		list-style-type: none;
+		left: -1.3em;
+		font-size: 0.9em;
+	}
+	section ul#todo div span {
+		font-size: 0.6em;
+		top: 4.2em;
+		left: 0;
+	}
+	section ul#todo div button {
+		font-size: 0.6em;
+		top: -6em;
+		line-height: 2.82em;
+		border-radius: 0;
+		right: -1.2em;
+	}
+}

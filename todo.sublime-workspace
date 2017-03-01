@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"register"
+			],
+			[
+				"newE",
+				"newEditBtnTxt"
+			],
+			[
+				"new",
+				"newEditBtn"
+			],
+			[
+				"div",
+				"div"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"newRe",
+				"newRemoveBtn"
+			],
+			[
+				"creat",
+				"createTextNode"
+			],
+			[
+				"crea",
+				"createElement"
+			],
+			[
+				"remo",
+				"removeBtns"
+			],
+			[
+				"lis",
+				"lisL"
+			],
+			[
+				"ed",
+				"editBtns"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
 				"max",
 				"max-width"
 			],
@@ -28,10 +76,6 @@
 				"username"
 			],
 			[
-				"re",
-				"require"
-			],
-			[
 				"pass",
 				"passport"
 			],
@@ -52,16 +96,8 @@
 				"verConPassword"
 			],
 			[
-				"in",
-				"input	Tag"
-			],
-			[
 				"Re",
 				"RegExp"
-			],
-			[
-				"new",
-				"newSpanTxt"
 			],
 			[
 				"fon",
@@ -156,10 +192,6 @@
 				"a1Txt"
 			],
 			[
-				"div",
-				"divE"
-			],
-			[
 				"bac",
 				"background"
 			],
@@ -238,10 +270,6 @@
 			[
 				"background",
 				"background-image"
-			],
-			[
-				"fo",
-				"font-size"
 			],
 			[
 				"inpu",
@@ -383,7 +411,7 @@
 			"file": "views/index.ejs",
 			"settings":
 			{
-				"buffer_size": 1000,
+				"buffer_size": 1107,
 				"line_ending": "Unix"
 			}
 		},
@@ -404,26 +432,42 @@
 			}
 		},
 		{
-			"file": "public/scripts/base.js",
-			"settings":
-			{
-				"buffer_size": 3583,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "public/styles/base.css",
 			"settings":
 			{
-				"buffer_size": 4300,
+				"buffer_size": 2985,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "routes/dashboard.js",
+			"file": "public/scripts/base.js",
 			"settings":
 			{
-				"buffer_size": 554,
+				"buffer_size": 3298,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bin/actions.js",
+			"settings":
+			{
+				"buffer_size": 2590,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/register.js",
+			"settings":
+			{
+				"buffer_size": 1298,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bin/auth.js",
+			"settings":
+			{
+				"buffer_size": 785,
 				"line_ending": "Unix"
 			}
 		}
@@ -491,6 +535,12 @@
 	],
 	"file_history":
 	[
+		"/home/hamzaalalach/Desktop/todolist/routes/remove.js",
+		"/home/hamzaalalach/Desktop/todolist/routes/add.js",
+		"/home/hamzaalalach/Desktop/todolist/routes/login.js",
+		"/home/hamzaalalach/Desktop/todolist/routes/dashboard.js",
+		"/home/hamzaalalach/Desktop/todolist/routes/register.js",
+		"/home/hamzaalalach/Desktop/todolist/routes/edit.js",
 		"/home/hamzaalalach/Desktop/todolist/public/styles/login.css",
 		"/home/hamzaalalach/Desktop/todolist/bin/auth.js",
 		"/home/hamzaalalach/Desktop/todolist/views/login.ejs",
@@ -502,16 +552,10 @@
 		"/home/hamzaalalach/Desktop/todolist/public/scripts/loRegister.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/home.js",
 		"/home/hamzaalalach/Desktop/todolist/views/index.ejs",
-		"/home/hamzaalalach/Desktop/todolist/routes/dashboard.js",
 		"/home/hamzaalalach/Desktop/todolist/models/user.js",
 		"/home/hamzaalalach/Desktop/todolist/models/task.js",
-		"/home/hamzaalalach/Desktop/todolist/routes/add.js",
-		"/home/hamzaalalach/Desktop/todolist/routes/register.js",
-		"/home/hamzaalalach/Desktop/todolist/routes/login.js",
 		"/home/hamzaalalach/Desktop/todolist/public/base.js",
 		"/home/hamzaalalach/Desktop/todolist/public/scripts/register.js",
-		"/home/hamzaalalach/Desktop/todolist/routes/edit.js",
-		"/home/hamzaalalach/Desktop/todolist/routes/remove.js",
 		"/home/hamzaalalach/Desktop/todolist/package.json",
 		"/home/hamzaalalach/Desktop/todolist/public/base.css",
 		"/home/hamzaalalach/Arduino/libraries/readme.txt",
@@ -636,6 +680,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font-size",
 			"1",
 			"header",
 			"2DBE60",
@@ -747,7 +792,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -756,15 +801,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1000,
+						"buffer_size": 1107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								352,
-								352
+								984,
+								984
 							]
 						],
 						"settings":
@@ -776,7 +821,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -805,7 +850,7 @@
 						"translation.y": 560.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -834,71 +879,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "public/scripts/base.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3583,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								216,
-								216
-							],
-							[
-								250,
-								250
-							],
-							[
-								365,
-								365
-							],
-							[
-								1647,
-								1647
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "public/styles/base.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4300,
+						"buffer_size": 2985,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2533,
-								2533
+								2916,
+								2916
 							]
 						],
 						"settings":
@@ -907,27 +905,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2267.0,
+						"translation.y": 1710.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
-					"buffer": 5,
-					"file": "routes/dashboard.js",
+					"buffer": 4,
+					"file": "public/scripts/base.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 554,
+						"buffer_size": 3298,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								268,
-								268
+								3298,
+								3298
 							]
 						],
 						"settings":
@@ -939,7 +943,94 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bin/actions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2319,
+								2319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 590.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "routes/register.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1255,
+								1255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "bin/auth.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1033,7 +1124,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

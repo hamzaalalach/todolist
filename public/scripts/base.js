@@ -17,11 +17,9 @@ var tsk = document.getElementById('tsk'),
 submit.addEventListener('click', function() {
 	var str = tsk.value;
 	if (str.length <= 2) {
-		tsk.style.borderTop = '0.8em solid #F00';
 		tsk.setAttribute('placeHolder', 'Type something first :D');
 		return false;
 	} else {
-		tsk.style.borderColor = '';
 		tsk.value = '';
 		var xhr = new XHR().xhr;
 		xhr.open('POST', '/add/' + str);
