@@ -19,7 +19,7 @@ header {
 	background-size: 4em;
 	position: left top;
 	height: 4em;
-	background-color: #FFF;
+	background-color: #2DBE60;
 	-moz-user-select: none;
 	-khtml-user-select: none;
 	-webkit-user-select: none;
@@ -33,8 +33,8 @@ header h1 {
 	left: 5em;
 	top: 1.7em;
 	font-size: 0.9em;
-	color: #2DBE60;
-	text-shadow: 0.05em 0.05em 0.05em #2DBE60;
+	color: #FFF;
+	text-shadow: 0.05em 0.05em 0.05em #FFF;
 }
 header nav {
 	position: relative;
@@ -49,7 +49,7 @@ header nav li a {
 	text-decoration: none;
 	padding: 1em;
 	line-height: 2em;
-	color: #2DBE60;
+	color: #FFF;
 	cursor: pointer;
 }
 header nav li a:hover {
