@@ -93,13 +93,62 @@ section form span p, section form span a {
 section form span a {
 	text-decoration: none;
 }
+#snackbar {
+	font-family: knewave, fantasy;
+	visibility: hidden;
+	margin-left: -12em;
+	background-color: #333;
+	color: #FFF;
+	text-align: center;
+	border-radius: 1em;
+	padding: 1em;
+	position: fixed;
+	z-index: 1;
+	left: 50%;
+	bottom: 1.8em;
+	font-size: 1em;
+}
+#snackbar li {
+	width: 100%;
+	line-height: 1.5em;
+	text-align: center;
+	list-style-type: none;
+}
+#snackbar.show {
+	visibility: visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 4.5s;
+	animation: fadein 0.5s, fadeout 0.5s 4.5s;
+}
 @media all and (max-width: 600px) {
 	header {
 		height: 5em;
 		top: 0.5em;
 	}
+	header div {
+		font-size: 0.5em;
+	}
 	section form {
 		width: 100%;
 		top: 1em;
 	}
+	#snackbar {
+		font-size: 0.7em;
+		border-radius: 0;
+	}
+}
+@keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 1.8em; opacity: 1;}
+}
+@-webkit-keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 1.8em; opacity: 1;}
+}
+@keyframes fadeout {
+	from {bottom: 1.8em; opacity: 1}
+	to {bottom: 0; opacity: 0}
+}
+@-webkit-keyframes fadeout {
+	from {bottom: 1.8em; opacity: 1}
+	to {bottom: 0; opacity: 0}
 }

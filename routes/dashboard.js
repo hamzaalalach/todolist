@@ -11,6 +11,10 @@ router.get('/dashboard/logout', function(req, res) {
 	req.logout();
 	res.redirect('/login');
 });
+router.get('/dashboard/settings', function(req, res) {
+	user = req.user;
+	res.render('settings', {user});
+});
 function ensureAuthenticated(req, res, next) {
 	if (req.isAuthenticated()) {
 		return next();

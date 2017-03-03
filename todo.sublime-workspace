@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"co",
+				"conPasswordErr"
+			],
+			[
+				"em",
+				"emailErr"
+			],
+			[
+				"aler",
+				"alert"
+			],
+			[
+				"pa",
+				"passwordErr"
+			],
+			[
 				"re",
 				"register"
 			],
@@ -82,10 +98,6 @@
 			[
 				"err",
 				"error"
-			],
-			[
-				"co",
-				"candidatePassword"
 			],
 			[
 				"p",
@@ -222,10 +234,6 @@
 			[
 				"mar",
 				"margin-right"
-			],
-			[
-				"pa",
-				"padding"
 			],
 			[
 				"marg",
@@ -416,18 +424,34 @@
 			}
 		},
 		{
-			"file": "public/styles/login.css",
+			"file": "routes/dashboard.js",
 			"settings":
 			{
-				"buffer_size": 2002,
+				"buffer_size": 651,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/styles/register.css",
+			"file": "views/settings.ejs",
 			"settings":
 			{
-				"buffer_size": 2051,
+				"buffer_size": 612,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/login.ejs",
+			"settings":
+			{
+				"buffer_size": 827,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/register.ejs",
+			"settings":
+			{
+				"buffer_size": 1101,
 				"line_ending": "Unix"
 			}
 		},
@@ -435,15 +459,15 @@
 			"file": "public/styles/base.css",
 			"settings":
 			{
-				"buffer_size": 2985,
+				"buffer_size": 3678,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/scripts/base.js",
+			"file": "public/scripts/loLogin.js",
 			"settings":
 			{
-				"buffer_size": 3298,
+				"buffer_size": 1566,
 				"line_ending": "Unix"
 			}
 		},
@@ -456,18 +480,26 @@
 			}
 		},
 		{
-			"file": "routes/register.js",
+			"file": "public/scripts/loRegister.js",
 			"settings":
 			{
-				"buffer_size": 1298,
+				"buffer_size": 3002,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "bin/auth.js",
+			"file": "public/styles/register.css",
 			"settings":
 			{
-				"buffer_size": 785,
+				"buffer_size": 2327,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/scripts/base.js",
+			"settings":
+			{
+				"buffer_size": 3224,
 				"line_ending": "Unix"
 			}
 		}
@@ -535,17 +567,17 @@
 	],
 	"file_history":
 	[
+		"/home/hamzaalalach/Desktop/todolist/public/styles/register.css",
+		"/home/hamzaalalach/Desktop/todolist/public/styles/login.css",
+		"/home/hamzaalalach/Desktop/todolist/routes/register.js",
+		"/home/hamzaalalach/Desktop/todolist/bin/actions.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/remove.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/add.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/login.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/dashboard.js",
-		"/home/hamzaalalach/Desktop/todolist/routes/register.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/edit.js",
-		"/home/hamzaalalach/Desktop/todolist/public/styles/login.css",
 		"/home/hamzaalalach/Desktop/todolist/bin/auth.js",
 		"/home/hamzaalalach/Desktop/todolist/views/login.ejs",
-		"/home/hamzaalalach/Desktop/todolist/public/styles/register.css",
-		"/home/hamzaalalach/Desktop/todolist/bin/actions.js",
 		"/home/hamzaalalach/Desktop/todolist/views/register.ejs",
 		"/home/hamzaalalach/Desktop/todolist/public/scripts/loLogin.js",
 		"/home/hamzaalalach/Desktop/todolist/index.js",
@@ -680,6 +712,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"section",
 			"font-size",
 			"1",
 			"header",
@@ -792,7 +825,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -808,8 +841,8 @@
 						"selection":
 						[
 							[
-								984,
-								984
+								803,
+								803
 							]
 						],
 						"settings":
@@ -821,117 +854,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "public/styles/login.css",
+					"file": "routes/dashboard.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2002,
+						"buffer_size": 651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1554,
-								1554
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 560.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "public/styles/register.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2051,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								611,
-								611
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "public/styles/base.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2985,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2916,
-								2916
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1710.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "public/scripts/base.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3298,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3298,
-								3298
+								487,
+								487
 							]
 						],
 						"settings":
@@ -943,11 +883,162 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/settings.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/login.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								321,
+								321
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/register.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								996,
+								996
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 32.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "public/styles/base.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3448,
+								3448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "public/scripts/loLogin.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1566,
+								1566
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "bin/actions.js",
 					"semi_transient": false,
 					"settings":
@@ -959,66 +1050,8 @@
 						"selection":
 						[
 							[
-								2319,
-								2319
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 590.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "routes/register.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1298,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1255,
-								1255
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "bin/auth.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 785,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								671,
+								671
 							]
 						],
 						"settings":
@@ -1031,6 +1064,93 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/scripts/loRegister.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2873,
+								2873
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/styles/register.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public/scripts/base.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2683,
+								2683
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1124,7 +1244,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
