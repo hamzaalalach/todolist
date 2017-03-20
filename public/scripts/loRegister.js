@@ -3,8 +3,7 @@ var name = document.getElementById('firstName'),
 	email = document.getElementById('email'),
 	password = document.getElementById('password'),
 	conPassword = document.getElementById('conPassword'),
-	check = {},
-	alert = document.getElementById('alerts');
+	check = {};
 function verFirstName() {
 	if (/^\w{2,}$/i.test(firstName.value)) {
 		check.firstName = true;
@@ -90,23 +89,6 @@ username.addEventListener('blur', verUsername, false);
 email.addEventListener('blur', verEmail, false);
 password.addEventListener('blur', verPassword, false);
 conPassword.addEventListener('blur', verConPassword, false);
-document.getElementById('form').addEventListener('submit', function(e) {
-	verFirstName();
-	verUsername();
-	verEmail();
-	verPassword();
-	verConPassword();
-	if (check.firstName && check.username && check.email && check.password && check.conPassword) {
-		return true;
-	} else {
-		e.preventDefault();
-		passwordErr();
-		usernameErr();
-		firstNameErr();
-		emailErr();
-		conPasswordErr();
-	}
-}, false);
 document.getElementById('form').addEventListener('submit', function(e) {
 	var errors = [];
 	verFirstName();

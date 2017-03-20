@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #F3F3F3;
+}
+header {
+	position: relative;
+	width: 40em;
+	margin: auto;
+	background-image: url("../images/hmalch.png");
+	background-repeat: no-repeat;
+	background-size: 4em;
+	position: left top;
+	height: 4em;
+	background-color: #2DBE60;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+header h1 {
+	font-family: nova-mono, sans-serif;
+	display: inline;
+	position: relative;
+	left: 5em;
+	top: 1.7em;
+	font-size: 0.9em;
+	color: #FFF;
+	text-shadow: 0.05em 0.05em 0.05em #FFF;
+}
+header nav {
+	position: relative;
+	float: right;
+}
+header nav li {
+	display: inline;
+	list-style-type: none;
+}
+header nav li a {
+	font-family: knewave, fantasy;
+	text-decoration: none;
+	padding: 1em;
+	line-height: 2em;
+	color: #FFF;
+	cursor: pointer;
+}
+header nav li a:hover {
+	color: #F3F3F3;
+	transition: color 0.5s ease;
+}
+section {
+	position: relative;
+	width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+section	h1 {
+	position: relative;
+	text-align: center;
+	text-decoration: underline;
+	top: 0.9em;
+	color: #6A6A6A;
+	font-size: 1.5em;
+	font-family: nova-mono, sans-serif;
+}
+section input {
+	position: relative;
+	top: 3.5em;
+	display: block;
+	border: 0.1em solid #999;
+	background-color: #F3F3F3;
+	margin-bottom: 1em;
+	line-height: 2.5em;
+	width: 96%;
+	padding: 0 0.9em;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius: 1em;
+	-khtml-border-radius: 1em;  
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	font-family: knewave, fantasy;
+}
+section div#update {
+	position: relative;
+	top: 3em;
+	width: 100%;
+	margin: auto;
+}
+section div#update input#oldPassword, #submit {
+	display: inline;
+	float: left;
+}
+section div#update input#oldPassword {
+	width: 63.5%;
+}
+section div#update input#submit {
+	width: 29%;
+	margin-left: 1.5%;
+	background-color: #2DBE60;
+	border: 0.1em solid #2DBE60;
+	color: #FFF;
+	cursor: pointer;
+}
+section div#update input#submit:hover {
+	color: #2DBE60;
+	background-color: #FFF;
+	transition: background-color 1s ease, color 0.5s linear;
+}
+#snackbar {
+	font-family: knewave, fantasy;
+	visibility: hidden;
+	margin-left: -12em;
+	background-color: #333;
+	color: #FFF;
+	text-align: center;
+	border-radius: 1em;
+	padding: 1em;
+	position: fixed;
+	z-index: 1;
+	left: 50%;
+	bottom: 1.8em;
+	font-size: 1em;
+}
+#snackbar li {
+	width: 100%;
+	line-height: 1.5em;
+	text-align: center;
+	list-style-type: none;
+}
+#snackbar.show {
+	visibility: visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 4.5s;
+	animation: fadein 0.5s, fadeout 0.5s 4.5s;
+}
+@media all and (max-width: 640px) {
+	header {
+		width: 100%;
+		font-size: 0.8em;
+	}
+	header nav li a {
+		padding: 0.8em;
+	}
+	header h1 {
+		top: 1.45em;
+	}
+	section {
+		width: 100%;
+	}
+	section input {
+		width: 90%;
+	}
+	section div#update {
+		width: 95%;
+	}
+	section div#update input#oldPassword {
+		width: 70%;
+	}
+	section div#update input#submit {
+		width: 20%;
+	}
+	#snackbar {
+		font-size: 0.7em;
+		border-radius: 0;
+	}
+}
+@keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 1.8em; opacity: 1;}
+}
+@-webkit-keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 1.8em; opacity: 1;}
+}
+@keyframes fadeout {
+	from {bottom: 1.8em; opacity: 1}
+	to {bottom: 0; opacity: 0}
+}
+@-webkit-keyframes fadeout {
+	from {bottom: 1.8em; opacity: 1}
+	to {bottom: 0; opacity: 0}
+}

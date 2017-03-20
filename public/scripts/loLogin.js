@@ -1,7 +1,6 @@
 var username = document.getElementById('username'),
 	password = document.getElementById('password'),
-	check = {},
-	alert = document.getElementById('alerts');
+	check = {};
 function verUsername() {
 	if (/^[a-z0-9-_]{6,20}$/i.test(username.value)) {
 		check.username = true;

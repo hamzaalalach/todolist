@@ -4,11 +4,12 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Todo List | What's next?</title>
-	<link href="../styles/base.css" rel="stylesheet" type="text/css" />
+	<link href="../styles/settings.css" rel="stylesheet" type="text/css" />
 	<script src="//use.edgefonts.net/nova-mono;knewave.js"></script> 
 </head>
 <body>
 	<header>
+		<div id="snackbar"></div>
 		<h1 id="user">Logged as: <%= user.username %></h1>	
 		<nav>
 			<ul id="nav">
@@ -18,8 +19,16 @@
 		</nav>
 	</header>
 	<section>
-		
+		<h1>Profile:</h1>
+		<input type="text" id="firstName" name="firstName" placeholder="First name" value="<%=user.name %>" />
+		<input type="text" id="email" name="email" placeholder="Email" value="<%=user.email %>" />
+		<input type="password" id="password" name="password" placeholder="New password" />
+		<input type="password" id="conPassword" name="password" placeholder="Confirm password" />
+		<div id="update">
+			<input type="password" id="oldPassword" name="password" placeholder="Current password" />
+			<input type="submit" id="submit" value="Update" />
+		</div>
 	</section>
-	<script src="../scripts/settings.js"></script>
+	<script src="../scripts/loSettings.js"></script>
 </body>
 </html>
