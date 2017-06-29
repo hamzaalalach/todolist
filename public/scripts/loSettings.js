@@ -1,9 +1,11 @@
-var name = document.getElementById('firstName'),
+var firstName = document.getElementById('firstName'),
 	email = document.getElementById('email'),
 	password = document.getElementById('password'),
 	conPassword = document.getElementById('conPassword'),
 	oldPassword = document.getElementById('oldPassword'),
-	check = {};
+	check = {},
+	iniName = firstName.value,
+	iniEmail = email.value;
 function verFirstName() {
 	if (/^\w{2,}$/i.test(firstName.value)) {
 		check.firstName = true;
@@ -91,10 +93,23 @@ conPassword.addEventListener('blur', verConPassword, false);
 oldPassword.addEventListener('blur', verOldPassword, false);
 document.getElementById('submit').addEventListener('click', function(e) {
 	var errors = [];
-	verFirstName();
-	verEmail();
-	verPassword();
-	verConPassword();
+	if (iniName != firstName.value) {
+		verFirstName();
+	} else {
+		check.firstName = true;
+	}
+	if (iniEmail != email.value) {
+		verEmail();
+	} else {
+		check.email = true;
+	}
+	if (password.value != '') {
+		verPassword();
+		verConPassword();
+	} else {
+		check.password = true;
+		check.conPassword = true;
+	}
 	verOldPassword();
 	if (check.firstName && check.oldPassword && check.email && check.password && check.conPassword) {
 		return true;

@@ -104,4 +104,25 @@ db.on('open', function() {
 			}
 		});
 	}
+	exports.editEmail = function(newEmail, username) {
+		User.update({username: username}, {$set: {email: newEmail}}, function(error) {
+			if (error) {
+				console.log(error);
+			}
+		});
+	}
+	exports.editFirstName = function(newName, username) {
+		User.update({username: username}, {$set: {name: newName}}, function(error) {
+			if (error) {
+				console.log(error);
+			}
+		});
+	}
+	exports.editPassword = function(newPassword, username) {
+		User.update({username: username}, {$set: {password: newPassword}}, function(error) {
+			if (error) {
+				console.log(error);
+			}
+		});
+	}
 });

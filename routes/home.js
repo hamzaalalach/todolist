@@ -2,9 +2,9 @@ var express = require('express'),
 	router = express.Router();
 router.get('/', ensureAuthenticated, function(req, res) {
 });
-function ensureAuthenticated(req, res) {
+function ensureAuthenticated(req, res, next) {
 	if (req.isAuthenticated()) {
-		res.redirect('/dashboard');
+		return next();
 	} else {
 		res.redirect('/login');
 	}

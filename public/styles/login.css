@@ -152,3 +152,6 @@ section form span a {
 	from {bottom: 1.8em; opacity: 1}
 	to {bottom: 0; opacity: 0}
 }
+.msg {
+	display: none;
+}

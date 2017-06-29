@@ -24,5 +24,10 @@
 		</form>
 	</section>
 <script src="scripts/loLogin.js"></script>
+<script type="text/javascript">
+	<% if (typeof(error) != "undefined") {%>
+	genErr(['<%= error %>']);
+	<% } %>
+</script>
 </body>
 </html>
