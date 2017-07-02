@@ -15,13 +15,16 @@ passport.use(new localStrategy(
 	function(username, password, done) {
 		actions.getUserByUsername(username, function(user) {
 			if(!user) {
-				return done(null, false, {message: 'Incorrect username/password'});
+				error = 'Incorrect username/password';
+				return done(null, false);
 			} else {
 				actions.comparePassword(password, user.password, function(isMatch) {
 					if (isMatch) {
+						error = undefined;
 						return done(null, user);
 					} else {
-						return done(null, false, {message: 'Incorrect username/password'});
+						error = 'Incorrect username/password';
+						return done(null, false);
 					}
 				});
 			}

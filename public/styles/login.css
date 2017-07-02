@@ -96,7 +96,6 @@ section form span a {
 #snackbar {
 	font-family: knewave, fantasy;
 	visibility: hidden;
-	margin-left: -12em;
 	background-color: #333;
 	color: #FFF;
 	text-align: center;
@@ -104,7 +103,8 @@ section form span a {
 	padding: 1em;
 	position: fixed;
 	z-index: 1;
-	left: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
 	bottom: 1.8em;
 	font-size: 1em;
 }

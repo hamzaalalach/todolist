@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"require"
+			],
+			[
+				"logi",
+				"loginMsg"
+			],
+			[
+				"con",
+				"conPassword"
+			],
+			[
+				"ini",
+				"iniEmail"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"e",
+				"error"
+			],
+			[
 				"ge",
 				"genErr"
 			],
@@ -30,10 +54,6 @@
 			[
 				"user",
 				"username"
-			],
-			[
-				"e",
-				"error"
 			],
 			[
 				"in",
@@ -76,10 +96,6 @@
 				"conPassword"
 			],
 			[
-				"con",
-				"conPasswordErr"
-			],
-			[
 				"firs",
 				"firstName"
 			],
@@ -110,14 +126,6 @@
 			[
 				"aler",
 				"alert"
-			],
-			[
-				"pa",
-				"passwordErr"
-			],
-			[
-				"re",
-				"register"
 			],
 			[
 				"newE",
@@ -464,18 +472,26 @@
 	"buffers":
 	[
 		{
-			"file": "index.js",
+			"file": "views/login.ejs",
 			"settings":
 			{
-				"buffer_size": 1292,
+				"buffer_size": 949,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "views/login.ejs",
+			"file": "bin/auth.js",
 			"settings":
 			{
-				"buffer_size": 829,
+				"buffer_size": 873,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/styles/login.css",
+			"settings":
+			{
+				"buffer_size": 2972,
 				"line_ending": "Unix"
 			}
 		}
@@ -542,26 +558,26 @@
 	],
 	"file_history":
 	[
-		"/home/hamzaalalach/Desktop/todolist/routes/dashboard.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/login.js",
+		"/home/hamzaalalach/Desktop/todolist/bin/actions.js",
+		"/home/hamzaalalach/Desktop/todolist/routes/dashboard.js",
+		"/home/hamzaalalach/Desktop/todolist/public/scripts/base.js",
+		"/home/hamzaalalach/Desktop/todolist/views/login.ejs",
+		"/home/hamzaalalach/Desktop/todolist/public/scripts/loSettings.js",
+		"/home/hamzaalalach/Desktop/todolist/views/settings.ejs",
+		"/home/hamzaalalach/Desktop/todolist/routes/home.js",
+		"/home/hamzaalalach/Desktop/todolist/views/index.ejs",
 		"/home/hamzaalalach/Desktop/todolist/public/scripts/loLogin.js",
+		"/home/hamzaalalach/Desktop/todolist/index.js",
 		"/home/hamzaalalach/Desktop/todolist/public/scripts/loRegister.js",
 		"/home/hamzaalalach/Desktop/todolist/public/styles/register.css",
-		"/home/hamzaalalach/Desktop/todolist/routes/home.js",
 		"/home/hamzaalalach/Desktop/todolist/bin/auth.js",
-		"/home/hamzaalalach/Desktop/todolist/bin/actions.js",
 		"/home/hamzaalalach/Desktop/todolist/public/styles/base.css",
-		"/home/hamzaalalach/Desktop/todolist/views/settings.ejs",
 		"/home/hamzaalalach/Desktop/todolist/public/styles/login.css",
-		"/home/hamzaalalach/Desktop/todolist/index.js",
-		"/home/hamzaalalach/Desktop/todolist/views/login.ejs",
 		"/home/hamzaalalach/Desktop/todolist/public/styles/settings.css",
-		"/home/hamzaalalach/Desktop/todolist/public/scripts/loSettings.js",
 		"/home/hamzaalalach/Desktop/todolist/views/register.ejs",
-		"/home/hamzaalalach/Desktop/todolist/views/index.ejs",
 		"/home/hamzaalalach/Downloads/The Hobbit 1, 2, 3 - Complete Extended Trilogy Fantasy 2012-2015 Eng Subs 720p [H246-mp4]/INFO.nfo",
 		"/home/hamzaalalach/Desktop/adnane.php",
-		"/home/hamzaalalach/Desktop/todolist/public/scripts/base.js",
 		"/home/hamzaalalach/Arduino/libraries/readme.txt",
 		"/home/hamzaalalach/Desktop/todolist/routes/register.js",
 		"/home/hamzaalalach/Desktop/todolist/routes/remove.js",
@@ -673,7 +689,7 @@
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -687,6 +703,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"req",
+			"name",
+			"firstName",
 			"password",
 			"keydown",
 			"password",
@@ -806,59 +825,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1017,
-								1017
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
 					"file": "views/login.ejs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 829,
+						"buffer_size": 949,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								770,
-								770
+								791,
+								791
 							]
 						],
 						"settings":
@@ -870,7 +854,65 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bin/auth.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/styles/login.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1962,
+								1941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1053.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -893,18 +935,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -941,9 +976,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "xo",
+		"last_filter": "hamza",
 		"selected_items":
 		[
+			[
+				"hamza",
+				"/opt/lampp/htdocs/ohamzaalalach/hamzaalalach.sublime-project"
+			],
 			[
 				"xo",
 				"/opt/lampp/htdocs/XO/XO.sublime-project"
@@ -955,10 +994,6 @@
 			[
 				"immo",
 				"/opt/lampp/htdocs/immotanger/immotanger.sublime-project"
-			],
-			[
-				"hamza",
-				"/opt/lampp/htdocs/ohamzaalalach/hamzaalalach.sublime-project"
 			],
 			[
 				"",

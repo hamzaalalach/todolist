@@ -28,5 +28,10 @@
 		</form>
 	</section>
 <script src="scripts/loRegister.js"></script>
+<script>
+	<% if (typeof(error) != "undefined") {%>
+	genErr(['<%= error %>']);
+	<% } %>
+</script>
 </body>
 </html>

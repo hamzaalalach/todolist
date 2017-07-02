@@ -43,7 +43,8 @@ router.post('/register', function(req, res) {
 				actions.createUser(firstName, username, email, password);
 				res.redirect('/login');
 			} else {
-				console.log('Username taken');
+				var error = 'Username taken';
+				res.render('register', {error});
 			}
 		});
 	}

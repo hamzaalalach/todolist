@@ -70,10 +70,9 @@ section input#tsk {
 	color: #6A6A6A;
 	background-color: transparent;
 	border: 0;
+	width: 100%;
 	border-bottom: 0.2em solid #2DBE60;
-	width: 40em;
-	line-height: 4em;
-	padding: 0 1.5em;
+	height: 4em;
 }
 section input#submit, section input#clr {
 	font-family: knewave, fantasy;
@@ -134,9 +133,10 @@ section ul#todo div span {
 section ul#todo div button {
 	display: block;
 	position: relative;
-	top: -5.25em;
+	top: -6.47em;
 	border: 0;
-	line-height: 2.5em;
+	border-radius: 0;
+	line-height: 3.23em;
 	float: right;
 	clear: both;
 	width: 5em;
@@ -166,7 +166,7 @@ section ul#todo div li:first-letter {
 		width: 100%;
 	}
 	section input#tsk {
-		width: 90%;
+		width: 99%;
 		margin: auto;
 		font-size: 0.7em;
 	}
@@ -191,7 +191,7 @@ section ul#todo div li:first-letter {
 	section ul#todo div button {
 		font-size: 0.6em;
 		top: -6em;
-		line-height: 2.82em;
+		line-height: 3em;
 		border-radius: 0;
 		right: -1.2em;
 	}
