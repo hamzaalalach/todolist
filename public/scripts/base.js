@@ -11,7 +11,21 @@ var tsk = document.getElementById('tsk'),
 	submit = document.getElementById('submit'),
 	todo = document.getElementById('todo'),
 	clr = document.getElementById('clr');
-
+function genErr(errors) {
+	var snackbar = document.getElementById('snackbar'),
+		errorsL = errors.length;
+	snackbar.innerHTML = '';
+	for (var i = 0; i < errorsL; i++) {
+		var newErr = document.createTextNode(errors[i]),
+			newLi = document.createElement('li');
+		newLi.appendChild(newErr);
+		snackbar.appendChild(newLi);
+	}
+	snackbar.className = 'show';
+	setTimeout(function() {
+		snackbar.className = '';
+	}, 5000);
+}
 
 /*  Events Handler  */
 submit.addEventListener('click', function() {
@@ -51,6 +65,7 @@ submit.addEventListener('click', function() {
 				document.getElementById("todo").appendChild(newDiv);
 				newRemoveBtn.addEventListener('click', remove, false);
 				newEditBtn.addEventListener('click', edit, false);
+				genErr(['Task added succesfully']);
 			}
 		}, false);
 	}
@@ -89,6 +104,7 @@ function remove(e) {
 	xhr.open('GET', '/remove/' + id);
 	xhr.send();
 	document.getElementById(id).parentNode.removeChild(document.getElementById(id));
+	genErr(['Task deleted succesfully']);
 }
 function edit(e) {
 	var newElem,
@@ -102,6 +118,7 @@ function edit(e) {
 		xhr.open('GET', '/edit/' + div.id + '/' + modElem);
 		xhr.send();
 		li.innerHTML = modElem;
+		genErr(['Task edited succesfully']);
 	} else {
 		return false;
 	}

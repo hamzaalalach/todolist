@@ -2,6 +2,7 @@ var express = require('express'),
 	router = express.Router(),
 	actions = require('../bin/actions');
 router.get('/register', function(req, res) {
+	error = undefined;
 	res.render('register');
 });
 router.post('/register', function(req, res) {

@@ -2,6 +2,7 @@ var express = require('express'),
 	router = express.Router(),
 	passport = require('../bin/auth');
 router.get('/login', function(req, res) {
+	error = undefined;
 	res.render('login');
 });
 router.post('/login',
