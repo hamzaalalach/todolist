@@ -1,8 +1,7 @@
 var express = require('express'),
-	router = express.Router(),
-	actions = require('./actions'),
-	passport = require('passport'),
-	localStrategy = require('passport-local').Strategy;
+		actions = require('./actions'),
+		passport = require('passport'),
+		localStrategy = require('passport-local').Strategy;
 passport.serializeUser(function(user, done) {
   done(null, user.id);
 });
